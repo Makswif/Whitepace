@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Compile SCSS to CSS ",
+			"type": "shell",
+			"command": "sass styles.scss styles.css",
+			"group": "build"
+		},
+		{
+			"type": "Live Preview",
+			"workspacePath": "c:\\Users\\Admin\\Desktop\\IT\\Moi pracy\\praca 6",
+			"problemMatcher": [],
+			"label": "Live Preview: Uruchom serwer"
+		}
+	]
+}

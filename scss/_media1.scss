@@ -1,0 +1,430 @@
+@media (max-width: 1440px) {
+  .Hero-selection{
+    /* Hero-section */
+    position: absolute;
+    width: 1440px;
+    height: 656.39px;
+    left: 0;
+    top: 92px;
+    /* ?????????? */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px 32px 100px 32px;
+  }
+  .Heading{
+    /* Heading */
+    position: absolute;
+    width: 691px;
+    height: 361px;
+    /* ?????????? */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 60;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 0px;
+    top: 130px;
+    left: 0px;
+  }
+  .Btn-free-trial-button{
+    /* Btn-free-trial */
+    position: static;
+    width: 219px;
+    height: 63px;
+    /* ?????????? */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10;
+    padding: 20px;
+    z-index: 2;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 60px -510px;
+  }
+  .Btn-free-trial{
+    img{
+      /* Group 212 */
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 85px -315px;
+    }
+  }
+  .Image-container{
+    /* Image-container */
+    position: relative;
+    width: 685px;
+    height: 456.39px;
+    /* ?????????? */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3.3252429962158203;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 120px;
+    top: -100px;
+  }
+  .elements{
+    position: relative;
+    width: 1988.85px;
+    height: 433.11px;
+    flex: none;
+    order: undefined;
+    flex-grow: 0;
+    margin: 0px 0px;
+    left: -230px;
+    top: -20px;
+  }
+}
+@media (max-width: 1152px) {
+  .Hero-selection{
+    /* Hero-section */
+    position: absolute;
+    width: 1440px;
+    height: 641px;
+    left: 0;
+    top: 92px;
+    /* ?????????? */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 140px 32px 140px 32px;
+
+  }
+  .Image-container{
+    /* Image-container */
+    position: relative;
+    width: 685px;
+    height: 456.39px;
+    /* ?????????? */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3.3252429962158203;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: -10px 100px;
+    top: -90px;
+  }
+  .Heading{
+    /* Heading */
+    position: absolute;
+    width: 691px;
+    height: 361px;
+    /* ?????????? */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 60;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 0px;
+    left: 0px;
+  }
+  .Btn-free-trial-button{
+    /* Btn-free-trial */
+    position: static;
+    width: 219px;
+    height: 63px;
+    /* ?????????? */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10;
+    padding: 20px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 60px -550px;
+  }
+  .Btn-free-trial{
+    img{
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 85px -315px;
+      left: 587px;
+      top: 370px;
+      z-index: 3;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .Hero-selection{
+    /* Hero-section */
+    position: absolute;
+    width: 792px;
+    height: 1051px;
+    left: 0;
+    top: 66px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100;
+    padding: 140px 20px 100px 20px;
+  }
+  .Heading{
+    /* Heading */
+    position: static;
+    width: 792px;
+    height: 344px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 100px 0px;
+  }
+  .Btn-free-trial{
+    /* Btn-free-trial */
+    position: static;
+    width: 232px;
+    height: 70px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10;
+    padding: 20px 40px 20px 40px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 60px 0px;
+  }
+  .Btn-free-trial-button{
+    position: absolute;
+    width: 232px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10;
+    padding: 20px 40px 20px 40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 80px 0px;
+    top: 470px;
+    left: 280px;
+  }
+  .elements{
+    /* Group */
+    position: absolute;
+    width: 1341.24px;
+    height: 614.08px;
+    left: -33.2%;
+    right: 29.82%;
+    top: 13.50%;
+    bottom: -3.61%;
+  }
+  .Image-container{
+    position: relative;
+    width: 551px;
+    height: 367px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 4px 0px;
+    background: rgb(79, 156, 249);
+    top: 100px;
+  }
+}
+@media (max-width: 320px) {
+  .Hero-selection{
+    /* Hero-section */
+    position: absolute;
+    width: 320px;
+    height: 813px;
+    left: 0;
+    top: 56px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100;
+    padding: 80px 16px 80px 16px;
+  }
+  .Heading{
+    /* Get More Done with whitepace */
+    position: static;
+    width: 288px;
+    height: 88px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    p{
+      /* Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks */
+      position: static;
+      width: 288px;
+      height: 120px;
+      /* Автолейаут */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 24;
+      padding: 0px;
+
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 24px 0px;
+    }
+    h1{
+      /* Get More Done with whitepace */
+      position: static;
+      width: 288px;
+      height: 88px;
+      /* Автолейаут */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 24;
+      padding: 0px;
+
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 24px 0px;
+      font-size: 40px;
+    }
+  }
+  .Btn-free-trial{
+    /* Btn-free-trial */
+    position: static;
+    width: 232px;
+    height: 70px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10;
+    padding: 20px 40px 20px 40px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 60px 0px;
+  }
+  .Image-container{
+    /* Image-container */
+    position: static;
+    width: 286px;
+    height: 191px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 100px 0px;
+  }
+  .Btn-free-trial-button{
+    position: relative;
+    width: 232px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10;
+    padding: 20px 40px 20px 40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 60px 0px;
+    top: 100px;
+    left: 0px;
+  }
+}

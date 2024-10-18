@@ -1,0 +1,169 @@
+.Hero-selection{
+    position: absolute;
+    width: 1920px;
+    height: 829px;
+    top: 92px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 140px 220px 140px 220px;
+    
+    background: rgb(4, 56, 115);
+    }
+    .elements{
+        /* Element */
+    position: static;
+    width: 3051.8px;
+    height: 547px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: undefined;
+    flex-grow: 0;
+    margin: 0px -590px;
+    }
+    .Heading{
+        position: absolute;
+        width: 656px;
+        height: 238px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 24;
+        padding: 0px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 150px 70px;
+        top: 100px;
+        left: 10px;
+       h1{
+        /* Get More Done with whitepace */
+position: static;
+width: 656px;
+height: 154px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 70px;
+
+/* Header/H2 */
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 64px;
+font-weight: 700;
+line-height: 77px;
+letter-spacing: -2%;
+text-align: left;
+       }
+       p{
+        /* Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks */
+position: static;
+width: 656px;
+height: 60px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 70px;
+
+/* Paragraph/P2/Regular */
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: -2%;
+text-align: left;
+       }
+    }
+    .Btn-free-trial-button{
+        /* Btn-free-trial */
+position: relative;
+width: 219px;
+height: 63px;
+/* Автолейаут */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 10;
+padding: 20px;
+        left: -210px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 60px -330px;
+
+border-radius: 8px;
+border: 0px solid;
+background:hsl(213, 93%, 64%);
+
+/* Paragraph/P2/Medium */
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: -2%;
+text-align: left;
+white-space: nowrap;
+    }
+    .Btn-free-trial{
+        position: static;
+        margin: 0px 0px -200px -1400px;
+        img{
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            margin: 85px -340px;
+            z-index: 2;
+        }
+    }
+    .Image-container{
+        position: relative;
+        width: 824px;
+        height: 549px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 4;
+        padding: 0px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 400px;
+        z-index: 3;
+        background: rgb(196, 222, 253);
+        top: -90px;
+    }

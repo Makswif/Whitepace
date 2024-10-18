@@ -1,0 +1,471 @@
+.Work-management{
+  /* Work-management */
+  position: absolute;
+  width: 1920px;
+  height: 1588px;
+  left: 0;
+  top: 921px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100;
+  padding: 140px 220px 140px 220px;
+}
+.Content1{
+  h1{
+    /* Project Management */
+    position: relative;
+    width: 672px;
+    height: 174px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 0px;
+    z-index: 2;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+
+    /* Header/H1 */
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 87px;
+    letter-spacing: -2%;
+    text-align: left;
+  }
+  p{
+    /* Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note. */
+    position: static;
+    width: 672px;
+    height: 90px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+
+    /* Paragraph/P2/Regular */
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -2%;
+    text-align: left;
+  }
+  button{
+    /* Btn-get-started */
+    position: static;
+    width: 201px;
+    height: 63px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 20px 40px 20px 40px;
+    white-space: nowrap;
+    border: solid;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 60px 0px;
+    z-index: 2;
+
+    /* Get Started */
+    position: relative;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 20px 40px 20px 40px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+
+    /* Paragraph/P2/Medium */
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -2%;
+    text-align: left;
+
+    border-radius: 6px;
+    background: rgb(79, 156, 249);
+  }
+  .icon{
+    /* Icon */
+    position: relative;
+    width: 14px;
+    height: 14px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 180px;
+    top: -40px;
+    z-index: 2;
+  }
+  .vector{
+    position: absolute;
+    width: 482.21px;
+    height: 29.38px;
+    left: 210.32px;
+    top: 416.28px;
+    transform: rotate(-0.1deg);
+    z-index: -1;
+  }
+  .background{
+    position: relative;
+    width: 602.84px;
+    height: 448.52px;
+    flex: none;
+    order: undefined;
+    flex-grow: 0;
+    left: -380px;
+    top: -310px;
+    opacity: 0.2;
+
+  }
+  .Image-container{
+    position: relative;
+    width: 778px;
+    height: 547px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 60px;
+    background: rgb(196, 222, 253);
+    left: 700px;
+    top: -900px;
+  }
+}
+.Content2{
+  /* Content */
+  position: absolute;
+  width: 1480px;
+  height: 661px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100;
+  padding: 0px;
+
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 100px 0px;
+  left: 0px;
+  top: 1010px;
+  h1{
+    /* Work together */
+    position: static;
+    width: 670px;
+    height: 87px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+
+    /* Header/H1 */
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 87px;
+    letter-spacing: -2%;
+    text-align: left;
+  }
+  p{
+    position: absolute;
+    width: 670px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -2%;
+    text-align: left;
+    left: 910px;
+    top: 140px;
+  }
+  .Btn-get-started{
+    position: relative;
+    width: 186px;
+    height: 63px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 20px 40px 20px 40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 60px 0px;
+    left: -670px;
+    background: rgb(79, 156, 249);
+    border-radius: 8px;
+  }
+  .icon{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+    z-index: 2;
+    left: 1035px;
+  }
+.vector{
+  position: absolute;
+  width: 298.36px;
+  height: 21.74px;
+  left: 1099px;
+  top: 84.58px;
+  z-index: -1;
+}
+}
+.Work-Together-Image{
+  /* Work Together Image */
+  position: static;
+  width: 710px;
+  height: 661px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 100px;
+}
+.Customise-it-to-your-needs{
+  position: absolute;
+  width: 1921px;
+  height: 759px;
+  left: 0;
+  top: 2810px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 98;
+  padding: 140px 220px 140px 220px;
+  background: rgb(4, 56, 115);
+  .Image-container {
+    position: relative;
+    top: -450px !important;
+  }
+  .vector{
+    position: relative;
+    top: 80px !important;
+    width: 333px !important;
+    height: 19px !important;
+    left: 240px !important;
+  }
+}
+.Customise-it-to-your-needs1{
+  /* Customise it to your needs */
+  position: absolute;
+  width: 1921px;
+  height: 812.09px;
+  left: 0;
+  top: 3268px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 98;
+  padding: 140px 220px 140px 220px;
+  top: 4010px;
+  h1{
+    /* Customise it to your needs */
+    position: relative;
+    width: 669px;
+    height: 174px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+
+    /* Header/H1 */
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 87px;
+    letter-spacing: -2%;
+    text-align: left;
+    top: 200px;
+  }
+  .Image-container{
+    position: relative;
+    width: 734px;
+    height: 552.09px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 98px;
+    left: -90px;
+  }
+  p{
+    position: absolute !important;
+    width: 669px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -2%;
+    text-align: left;
+    top: 450px;
+  }
+  button{
+    /* Btn-get-started */
+    position: relative;
+    width: 171px;
+    height: 63px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 20px 40px 20px 40px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 60px 0px;
+    border-radius: 8px;
+    background: rgb(79, 156, 249);
+    top: 310px;
+  }
+  .vector{
+    position: relative;
+    width: 447.44px;
+    height: 31.47px;
+    left: -11px;
+    top: 140.46px;
+    z-index: -1;
+  }
+  .icon{
+    position: relative;
+    top: 670px;
+    left: 140px;
+    z-index: 2;
+  }
+  .header{
+    top: -330px;
+    position: relative;
+    left: -80px;
+  }
+}
+

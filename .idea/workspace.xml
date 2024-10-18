@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d5e69a7-694d-4289-8023-641b24dc724c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/scss/_Hero-selection.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/scss/_header.scss" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2nLROMxNhekJqGQDQFLVEZ8OmTS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "Node.js.javascript.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/IT/Moi pracy/praca 6",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "CSS"
+    ]
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="skks" />
+    </option>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d5e69a7-694d-4289-8023-641b24dc724c" name="Changes" comment="" />
+      <created>1728750337265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728750337265</updated>
+      <workItem from="1728750338389" duration="92000" />
+      <workItem from="1728750446624" duration="1406000" />
+      <workItem from="1728751870654" duration="1948000" />
+      <workItem from="1728753848376" duration="401000" />
+      <workItem from="1728754254600" duration="461000" />
+      <workItem from="1728754909430" duration="822000" />
+      <workItem from="1728797379927" duration="56000" />
+      <workItem from="1728797442810" duration="179000" />
+      <workItem from="1728797629283" duration="1024000" />
+      <workItem from="1728798755617" duration="1166000" />
+      <workItem from="1728799938773" duration="133000" />
+      <workItem from="1728800077375" duration="2031000" />
+      <workItem from="1728805517721" duration="3906000" />
+      <workItem from="1728819890321" duration="1991000" />
+      <workItem from="1728900093410" duration="3333000" />
+      <workItem from="1728918203902" duration="2406000" />
+      <workItem from="1728987291747" duration="1562000" />
+      <workItem from="1728993145284" duration="575000" />
+      <workItem from="1729020181996" duration="1152000" />
+      <workItem from="1729088065783" duration="3455000" />
+      <workItem from="1729159401261" duration="4684000" />
+      <workItem from="1729248490930" duration="1974000" />
+      <workItem from="1729255916658" duration="3170000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
