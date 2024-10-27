@@ -1,0 +1,540 @@
+.Pricing{
+  /* Pricing */
+  position: absolute;
+  width: 1921px;
+  height: 1272px;
+  left: 0;
+  top: 4080.09px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60;
+  padding: 140px 220px 140px 220px;
+  top: 5510px;
+  .Heading{
+    /* Heading */
+    position: static;
+    width: 1481px;
+    height: 171px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 60px 0px;
+    top: 4710px;
+    h1{
+      position: relative;
+      width: 1481px;
+      height: 171px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 24;
+      padding: 0px;
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 60px 0px;
+      top: 0px;
+      left: 100px;
+    }
+    p{
+      position: relative;
+      width: 979px;
+      height: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 24;
+      padding: 0px;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 24px 0px;
+      color: rgb(33, 37, 41);
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: -2%;
+      text-align: center;
+      left: 387px;
+      white-space: nowrap;
+      top: -100px;
+    }
+    img{
+      position: absolute;
+      width: 276.92px;
+      height: 31.11px;
+      left: 1052px;
+      top: 372px;
+      z-index: -1;
+    }
+    }
+  }
+.Price-board1{
+  position: relative;
+  width: 472.33px;
+  height: 634px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25;
+  padding: 40px 44px 40px 44px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 32px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 228, 146);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  top: 40px;
+  left: -590px;
+
+  button{
+    position: relative;
+    width: 166px;
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px 16px 40px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 25px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 228, 146);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    top: -50px;
+  }
+  p{
+    position: relative;
+    width: 384.33px;
+    height: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 28;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 25px 0px;
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -2%;
+    text-align: left;
+    top: -70px;
+  }
+  h1{
+    position: relative;
+    width: 384.33px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 25px 0px;
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -2%;
+    text-align: left;
+    top: -55px;
+  }
+  .Free{
+    /* Paragraph/P1/Semibold */
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+.icon{
+  display: grid;
+  left: -30px;
+  position: relative;
+  top: -135px;
+  .i1{
+    position: relative;
+    top: 355px;
+  }
+  .i2{
+    position: relative;
+    top: 385px;
+  }
+  .i3{
+    position: relative;
+    top: 415px;
+  }
+  .i4{
+    position: relative;
+    top: 443px;
+  }
+  .i5{
+    position: relative;
+    top: 485px;
+  }
+  .i6{
+    position: relative;
+    top: 565px;
+  }
+}
+}
+.Price-board2{
+  /* Price-board */
+  position: relative;
+  width: 472.33px;
+  height: 761px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25;
+  padding: 80px 44px 80px 44px;
+  top: -700px;
+  left: -60px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 0px 32px;
+
+  border-radius: 10px;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.08);
+  background: rgb(4, 56, 115);
+  .Personal{
+    position: relative;
+    width: 384.33px;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 25px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    top: 50px;
+  }
+  p{
+    position: relative;
+    width: 347.33px;
+    height: 73px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 19;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0px 19px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -2%;
+    text-align: left;
+    top: 50px;
+  }
+  button{
+    /* Btn-get-started */
+    position: static;
+    width: 166px;
+    height: 51px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px 16px 40px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 25px 0px;
+
+    border-radius: 8px;
+    background: rgb(79, 156, 249);
+  }
+  .icon{
+    display: grid;
+    left: -15px;
+    position: relative;
+    top: -85px;
+    .i1{
+      position: relative;
+      top: 375px;
+    }
+    .i2{
+      position: relative;
+      top: 430px;
+    }
+    .i3{
+      position: relative;
+      top: 483px;
+    }
+    .i4{
+      position: relative;
+      top: 530px;
+    }
+    .i5{
+      position: relative;
+      top: 585px;
+    }
+    .i6{
+      position: relative;
+      top: 640px;
+    }
+  }
+  h1{
+    position: relative;
+    width: 384.33px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 25px 0px;
+    color: rgb(255, 228, 146);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -2%;
+    text-align: left;
+    top: -80px;
+  }
+  .khft{
+    position: relative;
+    width: 384.33px;
+    height: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25;
+    padding: 0px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 25px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -2%;
+    text-align: left;
+    top: -480px;
+  }
+}
+.Price-board3{
+  position: relative;
+  width: 472.33px;
+  height: 634px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25;
+  padding: 40px 44px 40px 44px;
+  flex: none;
+  order: 2;
+  flex-grow: 1;
+  margin: 0px 32px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 228, 146);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  top: -1520px;
+  left: 560px;
+  .icon{
+    display: grid;
+    left: -30px;
+    position: relative;
+    top: -275px;
+    .i1{
+      position: relative;
+      top: 491px;
+    }
+    .i2{
+      position: relative;
+      top: 520px;
+    }
+    .i3{
+      position: relative;
+      top: 550px;
+    }
+    .i4{
+      position: relative;
+      top: 580px;
+    }
+    .i5{
+      position: relative;
+      top: 612px;
+    }
+    .i6{
+      position: relative;
+      top: 640px;
+    }
+  }
+  .Organization{
+    position: relative;
+    width: 384.33px;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 25px 0px;
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    top: 70px;
+  }
+  h1{
+    position: relative;
+    width: 384.33px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 25px 0px;
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -2%;
+    text-align: left;
+    top: -380px;
+  }
+  .ciftq{
+    position: relative;
+    width: 384.33px;
+    height: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25;
+    padding: 0px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 25px 0px;
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -2%;
+    text-align: left;
+    top: -400px;
+  }
+  p{
+    position: relative;
+    top: 80px;
+  }
+  button{
+    position: relative;
+    width: 166px;
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px 16px 40px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 25px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 228, 146);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    top: -70px;
+  }
+}
+.Pricelist{
+  top: 200px;
+  position: relative;
+}
