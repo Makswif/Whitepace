@@ -713,8 +713,8 @@ header {
     order: 1;
     flex-grow: 0;
     margin: 85px -315px;
-    left: 587px;
-    top: 370px;
+    left: 580px;
+    top: 470px;
     z-index: 3;
   }
 }
@@ -936,6 +936,231 @@ header {
     margin: 60px 0px;
     top: 100px;
     left: 0px;
+  }
+}
+@media (max-width: 1440px) {
+  .Pricing {
+    margin-top: -700px;
+    margin-left: -200px;
+  }
+  .Price-board3 .ciftq {
+    top: -440px !important;
+  }
+  .Price-board3 h1 {
+    top: -460px;
+  }
+  .Price-board3 .Price-board3 .i6 {
+    top: 680px;
+  }
+}
+@media (max-width: 1152px) {
+  .Pricing {
+    margin-top: -700px;
+    margin-left: -240px;
+  }
+  .Price-board1 {
+    /* Price-board */
+    width: 341.33px !important;
+    height: 697px !important;
+    left: -450px !important;
+  }
+  .Price-board1 p {
+    /* Paragraph/P3/Regular */
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -2%;
+    text-align: left;
+    white-space: pre-line;
+  }
+  .Price-board1 button {
+    top: 0px !important;
+  }
+  .Price-board2 {
+    position: relative;
+    width: 302.33px !important;
+    height: 771px !important;
+  }
+  .Price-board2 p {
+    /* Paragraph/P2/Medium */
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -2%;
+    text-align: left;
+    white-space: pre-line;
+  }
+  .Price-board3 {
+    width: 341.33px !important;
+    height: 697px !important;
+    left: 380px !important;
+  }
+  .Price-board3 .ciftq {
+    white-space: pre-line;
+    margin-top: -40px !important;
+  }
+  .Price-board3 h1 {
+    top: -460px !important;
+  }
+  .Price-board3 button {
+    top: -40px !important;
+  }
+  .Price-board3 .i6 {
+    top: 700px !important;
+  }
+  #o2 {
+    white-space: pre-line;
+  }
+}
+@media (max-width: 768px) {
+  .Pricing {
+    top: 7140px !important;
+    left: -400px !important;
+  }
+  .Pricing .Heading img {
+    top: -343px !important;
+  }
+  .Pricing .Heading h1 {
+    /* Header/H3 */
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 54px !important;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: -2%;
+    text-align: center;
+  }
+  .Pricing .Heading p {
+    white-space: pre-line !important;
+  }
+  .Pricing .Heading p br {
+    display: none;
+  }
+  .Pricing .Price-board2 {
+    width: 472.33px !important;
+    height: 711px !important;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25;
+    padding: 80px 44px 80px 44px;
+  }
+  .Pricing .Price-board2 p {
+    top: -20px;
+    white-space: pre-line;
+  }
+  .Pricing .Price-board2 p br {
+    display: none;
+  }
+  .Pricing .Price-board2 p #r4 {
+    white-space: pre;
+  }
+  .Pricing .Price-board2 .Personal {
+    top: 60px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .Pricing .Price-board2 .i1 {
+    top: 305px !important;
+  }
+  .Pricing .Price-board2 .i2 {
+    top: 360px !important;
+  }
+  .Pricing .Price-board2 .i3 {
+    top: 411px !important;
+  }
+  .Pricing .Price-board2 .i4 {
+    top: 465px !important;
+  }
+  .Pricing .Price-board2 .i5 {
+    top: 525px !important;
+  }
+  .Pricing .Price-board2 .i6 {
+    top: 565px !important;
+  }
+  .Pricing .Price-board2 .khft {
+    top: -520px !important;
+  }
+  .Pricing .Price-board2 button {
+    top: -60px !important;
+    position: relative;
+  }
+  .Price-board3 {
+    top: -1468px !important;
+    left: 558px !important;
+  }
+}
+@media (max-width: 320px) {
+  .Slider {
+    position: relative;
+    top: -2750px;
+    left: -350px;
+    display: flex !important;
+  }
+  .Slider #u1 {
+    left: -10px;
+    position: relative;
+  }
+  .Slider #u3 {
+    left: 10px;
+    position: relative;
+  }
+  .Pricelist {
+    left: -280px;
+    top: -1440px !important;
+  }
+  #v1 {
+    display: flex !important;
+    display: flex !important;
+    top: -3990px;
+    left: -360px;
+    position: relative;
+    z-index: -1;
+    width: 140px;
+  }
+  .Pricing .Heading img {
+    display: none;
+  }
+  .Pricing .Heading h1 {
+    width: 318px !important;
+    left: 430px !important;
+    top: -1700px !important;
+  }
+  .Pricing .Heading p {
+    /* Whether you want to get organized, keep your personal life on track, or boost workplace productivity, Evernote has the right plan for you. */
+    width: 298px !important;
+    top: -1740px !important;
+    left: 450px !important;
+  }
+  .Pricing .Price-board2 {
+    width: 242.33px !important;
+    height: 650px !important;
+  }
+}
+@media (max-width: 1440px) {
+  .Your-work {
+    width: 1440px !important;
+    height: 574px !important;
+    top: 5909.45px !important;
+  }
+  .Your-work #i1 {
+    left: -1180px !important;
+  }
+  .Your-work #d1 {
+    top: 100px;
+    left: -290px;
+    position: relative;
   }
 }
 .Work-management {
@@ -1378,13 +1603,17 @@ header {
 .Customise-it-to-your-needs1 .icon {
   position: relative;
   top: 670px;
-  left: 140px;
+  left: 130px;
   z-index: 2;
 }
 .Customise-it-to-your-needs1 .header {
   top: -330px;
   position: relative;
   left: -80px;
+}
+
+button {
+  border-width: 0px !important;
 }
 
 @media (max-width: 2561px) {
@@ -1559,7 +1788,11 @@ header {
     margin: 100px 0px;
     top: 0px;
   }
-  h1 {
+  .Content1 .q2 {
+    top: 110px;
+    left: 70px;
+  }
+  .q1 {
     top: 121px !important;
     position: relative;
     left: 50px !important;
@@ -2144,6 +2377,7 @@ header {
     letter-spacing: -2%;
     text-align: left;
     top: 200px !important;
+    left: 60px;
   }
   .Customise-it-to-your-needs p {
     /* Paragraph/P2/Regular */
@@ -2747,6 +2981,12 @@ header {
   padding: 140px 220px 140px 220px;
   top: 5510px;
 }
+.Pricing #v1 {
+  display: none;
+}
+.Pricing .Slider {
+  display: none;
+}
 .Pricing .Heading {
   /* Heading */
   position: static;
@@ -2815,14 +3055,14 @@ header {
   width: 276.92px;
   height: 31.11px;
   left: 1052px;
-  top: 372px;
+  top: -374px;
   z-index: -1;
 }
 
 .Price-board1 {
   position: relative;
   width: 472.33px;
-  height: 634px;
+  height: 714px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2837,10 +3077,11 @@ header {
   border: 1px solid rgb(255, 228, 146);
   border-radius: 10px;
   background: rgb(255, 255, 255);
-  top: 40px;
+  top: 100px;
   left: -590px;
 }
 .Price-board1 button {
+  border-width: 1px !important;
   position: relative;
   width: 166px;
   height: 51px;
@@ -2857,7 +3098,13 @@ header {
   border: 1px solid rgb(255, 228, 146);
   border-radius: 8px;
   background: rgb(255, 255, 255);
-  top: -50px;
+  top: 0px;
+}
+.Price-board1 #o1 {
+  top: -35px;
+}
+.Price-board1 #o2 {
+  top: -30px;
 }
 .Price-board1 p {
   position: relative;
@@ -2882,6 +3129,9 @@ header {
   letter-spacing: -2%;
   text-align: left;
   top: -70px;
+}
+.Price-board1 #po {
+  top: -80px;
 }
 .Price-board1 h1 {
   position: relative;
@@ -2925,27 +3175,27 @@ header {
 }
 .Price-board1 .icon .i1 {
   position: relative;
-  top: 355px;
+  top: 405px;
 }
 .Price-board1 .icon .i2 {
   position: relative;
-  top: 385px;
+  top: 435px;
 }
 .Price-board1 .icon .i3 {
   position: relative;
-  top: 415px;
+  top: 465px;
 }
 .Price-board1 .icon .i4 {
   position: relative;
-  top: 443px;
+  top: 503px;
 }
 .Price-board1 .icon .i5 {
   position: relative;
-  top: 485px;
+  top: 565px;
 }
 .Price-board1 .icon .i6 {
   position: relative;
-  top: 565px;
+  top: 610px;
 }
 
 .Price-board2 {
@@ -3119,7 +3369,7 @@ header {
 .Price-board3 {
   position: relative;
   width: 472.33px;
-  height: 634px;
+  height: 714px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -3134,8 +3384,8 @@ header {
   border: 1px solid rgb(255, 228, 146);
   border-radius: 10px;
   background: rgb(255, 255, 255);
-  top: -1520px;
-  left: 560px;
+  top: -1535px;
+  left: 558px;
 }
 .Price-board3 .icon {
   display: grid;
@@ -3149,23 +3399,23 @@ header {
 }
 .Price-board3 .icon .i2 {
   position: relative;
-  top: 520px;
+  top: 525px;
 }
 .Price-board3 .icon .i3 {
   position: relative;
-  top: 550px;
+  top: 555px;
 }
 .Price-board3 .icon .i4 {
   position: relative;
-  top: 580px;
+  top: 595px;
 }
 .Price-board3 .icon .i5 {
   position: relative;
-  top: 612px;
+  top: 642px;
 }
 .Price-board3 .icon .i6 {
   position: relative;
-  top: 640px;
+  top: 680px;
 }
 .Price-board3 .Organization {
   position: relative;
@@ -3213,7 +3463,7 @@ header {
   line-height: 44px;
   letter-spacing: -2%;
   text-align: left;
-  top: -380px;
+  top: -410px;
 }
 .Price-board3 .ciftq {
   position: relative;
@@ -3237,13 +3487,22 @@ header {
   line-height: 23px;
   letter-spacing: -2%;
   text-align: left;
-  top: -400px;
+  top: -430px !important;
 }
 .Price-board3 p {
   position: relative;
-  top: 80px;
+  top: 80px !important;
+  /* Paragraph/P3/Regular */
+  color: rgb(33, 37, 41);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -2%;
+  text-align: left;
 }
 .Price-board3 button {
+  border-width: 1px !important;
   position: relative;
   width: 166px;
   height: 51px;
@@ -3266,6 +3525,113 @@ header {
 .Pricelist {
   top: 200px;
   position: relative;
+}
+
+.Your-work {
+  position: absolute;
+  width: 1921px;
+  height: 574px;
+  left: 0;
+  top: 6602.09px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 140px 220px 140px 220px;
+  background: rgb(4, 56, 115);
+}
+.Your-work h1 {
+  position: relative;
+  width: 1665px;
+  height: 87px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24;
+  padding: 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px 0px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 77px;
+  font-weight: 700;
+  line-height: 87px;
+  letter-spacing: -2%;
+  text-align: left;
+  left: 200px;
+  top: -1300px;
+}
+.Your-work p {
+  position: relative;
+  width: 1064px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24;
+  padding: 0px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px 0px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -2%;
+  text-align: center;
+  white-space: pre;
+  left: 500px;
+  top: -1300px;
+}
+.Your-work #i1 {
+  position: relative;
+  left: -1000px;
+  top: -420px;
+  height: 1250px;
+  width: 1300px;
+}
+.Your-work #i2 {
+  position: relative;
+  top: -1185px;
+  left: 1295px;
+}
+.Your-work #i3 {
+  position: relative;
+  top: -905px;
+  left: 773px;
+  z-index: 2;
+}
+.Your-work #d1 {
+  top: 100px;
+  left: -100px;
+  position: relative;
+}
+.Your-work button {
+  position: relative;
+  width: 195px;
+  height: 63px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 20px 40px 20px 40px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 60px 0px;
+  border-radius: 8px;
+  background: rgb(79, 156, 249);
+  top: -1200px;
+  left: 950px;
 }
 
 /*# sourceMappingURL=styles.css.map */

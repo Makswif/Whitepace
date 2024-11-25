@@ -188,8 +188,8 @@
       order: 1;
       flex-grow: 0;
       margin: 85px -315px;
-      left: 587px;
-      top: 370px;
+      left: 580px;
+      top: 470px;
       z-index: 3;
     }
   }
@@ -426,5 +426,247 @@
     margin: 60px 0px;
     top: 100px;
     left: 0px;
+  }
+}
+@media  (max-width: 1440px) {
+  .Pricing{
+    margin-top: -700px;
+    margin-left: -200px;
+  }
+  .Price-board3{
+    .ciftq{
+      top: -440px !important;
+    }
+    h1{
+      top: -460px;
+    }
+    .Price-board3{
+      .i6{
+        top: 680px;
+      }
+    }
+  }
+}
+@media (max-width: 1152px) {
+  .Pricing{
+    margin-top: -700px;
+    margin-left: -240px;
+  }
+  .Price-board1{
+    /* Price-board */
+    width: 341.33px !important;
+    height: 697px !important;
+    left: -450px !important;
+    p{
+      /* Paragraph/P3/Regular */
+      color: rgb(33, 37, 41);
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: -2%;
+      text-align: left;
+      white-space: pre-line;
+    }
+    button{
+      top: 0px !important;
+    }
+
+  }
+  .Price-board2{
+    position: relative;
+    width: 302.33px !important;
+    height: 771px !important;
+    p{
+      /* Paragraph/P2/Medium */
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 23px;
+      letter-spacing: -2%;
+      text-align: left;
+      white-space: pre-line;
+    }
+  }
+  .Price-board3{
+    width: 341.33px !important;
+    height: 697px !important;
+    left: 380px !important;
+    .ciftq{
+      white-space: pre-line;
+      margin-top: -40px !important;
+    }
+    h1{
+      top: -460px !important;
+    }
+    button{
+      top: -40px !important;
+    }
+    .i6{
+      top: 700px !important;
+    }
+  }
+  #o2{
+    white-space: pre-line;
+  }
+}
+@media (max-width: 768px) {
+  .Pricing{
+    top: 7140px !important;
+    left: -400px !important;
+    //.Price-board2{
+    //  width: 472.33px !important;
+    //  height: 711px !important;
+    //}
+
+    .Heading{
+      img{
+        top: -343px !important;
+      }
+      h1{
+        /* Header/H3 */
+        color: rgb(33, 37, 41);
+        font-family: Inter;
+        font-size: 54px !important;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: -2%;
+        text-align: center;
+      }
+      p{
+        white-space: pre-line !important;
+        br{
+          display: none;
+        }
+      }
+    }
+    .Price-board2{
+      width: 472.33px !important;
+      height: 711px !important;
+      /* Автолейаут */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 25;
+      padding: 80px 44px 80px 44px;
+      p{
+        top: -20px;
+        white-space: pre-line;
+        br{
+          display: none;
+        }
+        #r4{
+          white-space: pre;
+        }
+      }
+      .Personal{
+        top: 60px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+      .i1{
+        top: 305px !important;
+      }
+      .i2{
+        top: 360px !important;
+      }
+      .i3{
+        top: 411px !important;
+      }
+      .i4{
+        top: 465px !important;
+      }
+      .i5{
+        top: 525px !important;
+      }
+      .i6{
+        top: 565px !important;
+      }
+      .khft{
+        top: -520px !important;
+      }
+      button{
+        top: -60px !important;
+        position: relative;
+      }
+    }
+  }
+  .Price-board3{
+    top: -1468px !important;
+    left: 558px !important;
+  }
+
+}
+@media (max-width: 320px) {
+  .Slider{
+    position: relative;
+    top: -2750px;
+    left: -350px;
+    display: flex !important;
+    #u1{
+      left: -10px;
+      position: relative;
+    }
+    #u3{
+      left: 10px;
+      position: relative;
+    }
+  }
+  .Pricelist{
+    left: -280px;
+    top: -1440px !important;
+  }
+  #v1{
+    display: flex !important;
+    display: flex !important;
+    top: -3990px;
+    left: -360px;
+    position: relative;
+    z-index: -1;
+    width: 140px;
+  }
+  .Pricing{
+    .Heading{
+      img{
+        display: none;
+      }
+      h1{
+        width: 318px !important;
+        left: 430px !important;
+        top: -1700px !important;
+      }
+      p{
+        /* Whether you want to get organized, keep your personal life on track, or boost workplace productivity, Evernote has the right plan for you. */
+        width: 298px !important;
+        top: -1740px !important;
+        left: 450px !important;
+      }
+    }
+    .Price-board2{
+      width: 242.33px !important;
+      height: 650px !important;
+    }
+  }
+}
+@media (max-width: 1440px) {
+  .Your-work{
+    width: 1440px !important;
+    height: 574px !important;
+    top: 5909.45px !important;
+    #i1{
+      left: -1180px !important;
+    }
+    #d1{
+      top: 100px;
+      left: -290px;
+      position: relative;
+    }
   }
 }

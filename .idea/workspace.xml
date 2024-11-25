@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d5e69a7-694d-4289-8023-641b24dc724c" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/scss/_main2.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2024_14_00_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2024_14_00__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_Work-management.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_Work-management.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_main1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_main1.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_main2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_main2.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_media1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_media1.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +47,13 @@
     <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scss/_Hero-selection.scss" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scss/_header.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/scss/_media1.scss" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2nLROMxNhekJqGQDQFLVEZ8OmTS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -58,28 +61,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "Node.js.javascript.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main1",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Admin/Desktop/IT/Moi pracy/praca 6",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.javascript.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main1&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/IT/Moi pracy/praca 6&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "CSS"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;CSS&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="skks" />
@@ -88,11 +92,14 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Admin\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4d5e69a7-694d-4289-8023-641b24dc724c" name="Changes" comment="" />
@@ -127,7 +134,32 @@
       <workItem from="1729618862367" duration="593000" />
       <workItem from="1729619956834" duration="261000" />
       <workItem from="1730020668273" duration="1233000" />
-      <workItem from="1730021974279" duration="8799000" />
+      <workItem from="1730021974279" duration="9493000" />
+      <workItem from="1730553359842" duration="2457000" />
+      <workItem from="1730561044216" duration="5196000" />
+      <workItem from="1730826734038" duration="170000" />
+      <workItem from="1730826925221" duration="162000" />
+      <workItem from="1730903415726" duration="667000" />
+      <workItem from="1731231879147" duration="357000" />
+      <workItem from="1731232764610" duration="8379000" />
+      <workItem from="1731241613522" duration="1279000" />
+      <workItem from="1731242910695" duration="845000" />
+      <workItem from="1731267052613" duration="1065000" />
+      <workItem from="1731332954731" duration="151000" />
+      <workItem from="1731354007731" duration="4000" />
+      <workItem from="1731511948122" duration="604000" />
+      <workItem from="1731598039802" duration="2120000" />
+      <workItem from="1731600204945" duration="108000" />
+      <workItem from="1731600390248" duration="131000" />
+      <workItem from="1731600530467" duration="708000" />
+      <workItem from="1731601249882" duration="211000" />
+      <workItem from="1732016982362" duration="214000" />
+      <workItem from="1732033169370" duration="17000" />
+      <workItem from="1732101529646" duration="5267000" />
+      <workItem from="1732197520591" duration="48000" />
+      <workItem from="1732295946700" duration="194000" />
+      <workItem from="1732538941812" duration="4972000" />
+      <workItem from="1732550001408" duration="762000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
