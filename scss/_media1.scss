@@ -1,4 +1,12 @@
 @media (max-width: 1440px) {
+  .Customise-it-to-your-needs1{
+    .icon{
+      top: 670px !important;
+    }
+    .header{
+      left: -140px !important;
+    }
+  }
   .Hero-selection{
     /* Hero-section */
     position: absolute;
@@ -36,11 +44,9 @@
     left: 0px;
   }
   .Btn-free-trial-button{
-    /* Btn-free-trial */
     position: static;
     width: 219px;
     height: 63px;
-    /* ?????????? */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -48,60 +54,59 @@
     gap: 10;
     padding: 20px;
     z-index: 2;
-
-    /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 60px -510px;
+    margin: 60px -245px;
   }
   .Btn-free-trial{
     img{
-      /* Group 212 */
       position: absolute;
       width: 10px;
       height: 10px;
-      /* Inside Auto Layout */
       flex: none;
       order: 1;
       flex-grow: 0;
-      margin: 85px -315px;
+      margin: 85px -50px;
     }
   }
   .Image-container{
-    /* Image-container */
     position: relative;
     width: 685px;
     height: 456.39px;
-    /* ?????????? */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 3.3252429962158203;
+    gap: 3.3252429962;
     padding: 0px;
-
-
-    /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 120px;
+    margin: 0px 450px;
     top: -100px;
   }
   .elements{
     position: relative;
-    width: 1988.85px;
+    width: 1688.85px;
     height: 433.11px;
     flex: none;
     order: undefined;
     flex-grow: 0;
     margin: 0px 0px;
-    left: -230px;
+    left: -220px;
     top: -20px;
   }
 }
 @media (max-width: 1152px) {
+  .Customise-it-to-your-needs1{
+    .icon{
+      top: 650px !important;
+    }
+    .header{
+      left: -40px !important;
+    }
+  }
   .Hero-selection{
     /* Hero-section */
     position: absolute;
@@ -118,24 +123,19 @@
 
   }
   .Image-container{
-    /* Image-container */
     position: relative;
     width: 685px;
     height: 456.39px;
-    /* ?????????? */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 3.3252429962158203;
+    gap: 3.3252429962;
     padding: 0px;
-
-
-    /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: -10px 100px;
+    margin: -10px 450px;
     top: -90px;
   }
   .Heading{
@@ -158,26 +158,24 @@
     flex-grow: 1;
     margin: 0px 0px;
     left: 0px;
+    p{
+      white-space: pre-line;
+    }
   }
   .Btn-free-trial-button{
-    /* Btn-free-trial */
     position: static;
     width: 219px;
     height: 63px;
-    /* ?????????? */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     gap: 10;
     padding: 20px;
-
-
-    /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 60px -550px;
+    margin: 60px -250px;
   }
   .Btn-free-trial{
     img{
@@ -195,6 +193,16 @@
   }
 }
 @media (max-width: 768px) {
+  .Customise-it-to-your-needs1{
+    .icon{
+      top: 690px !important;
+    }
+    .header{
+      top: -330px;
+      position: relative;
+      left: -60px !important;
+    }
+  }
   .Hero-selection{
     /* Hero-section */
     position: absolute;
@@ -269,13 +277,16 @@
     left: 280px;
   }
   .elements{
-    /* Group */
+    display: none;
+  }
+  .elements1{
+    display: flex !important;
     position: absolute;
-    width: 1341.24px;
+    width: 1311.24px;
     height: 614.08px;
     left: -33.2%;
     right: 29.82%;
-    top: 13.50%;
+    top: 13.5%;
     bottom: -3.61%;
   }
   .Image-container{
@@ -291,6 +302,17 @@
   }
 }
 @media (max-width: 320px) {
+  .elements1{
+    display: none !important;
+  }
+  .elements2{
+    display: flex !important;
+    display: flex !important;
+    top: 380px;
+    position: relative;
+    width: 1400px;
+    left: 40px;
+  }
   .Hero-selection{
     /* Hero-section */
     position: absolute;
@@ -307,25 +329,21 @@
     padding: 80px 16px 80px 16px;
   }
   .Heading{
-    /* Get More Done with whitepace */
-    position: static;
+    position: relative;
     width: 288px;
     height: 88px;
-    /* Автолейаут */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 24;
     padding: 0px;
-
-
-    /* Inside Auto Layout */
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    margin: 24px 0px;
+    margin: 124px 0px;
+    top: -400px;
     p{
       /* Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks */
       position: static;
@@ -389,26 +407,26 @@
     order: 1;
     flex-grow: 0;
     margin: 60px 0px;
+    img{
+      top: 476px !important;
+      left: 585px !important;
+    }
   }
   .Image-container{
-    /* Image-container */
-    position: static;
+    position: relative;
     width: 286px;
     height: 191px;
-    /* Автолейаут */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 4;
     padding: 0px;
-
-
-    /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
     margin: 100px 0px;
+    top: -500px;
   }
   .Btn-free-trial-button{
     position: relative;
@@ -424,7 +442,7 @@
     order: 1;
     flex-grow: 0;
     margin: 60px 0px;
-    top: 100px;
+    top: -400px;
     left: 0px;
   }
 }
@@ -659,9 +677,9 @@
   .Your-work{
     width: 1440px !important;
     height: 574px !important;
-    top: 5909.45px !important;
+    top: 1109.45px !important;
     #i1{
-      left: -1180px !important;
+      left: -980px !important;
     }
     #d1{
       top: 100px;
@@ -670,3 +688,79 @@
     }
   }
 }
+@media (width: 1152px) {
+  .Your-work{
+    width: 1152vw !important;
+    height: 701vh !important;
+  }
+}
+@media (max-width: 1440px) {
+  .Work-management{
+    position: absolute;
+    width: 1440px !important;
+    height: 1370.76px !important;
+    margin-left: -150px;
+    top: 748.39px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100;
+    .Content2{
+      h1{
+        left: 80px;
+        position: relative;
+      }
+      .Btn-get-started{
+        left: -495px !important;
+      }
+    }
+    .Work-Together-Image{
+      width: 630px;
+      left: 84px !important;
+      top: -70px;
+    }
+  }
+}
+@media (max-width: 1152px) {
+  .Work-Together-Image{
+    margin-left: 27px !important;
+
+  }
+  .Content2 {
+    .vector{
+      left: 1029px !important;
+    }
+    .icon {
+      left: 965px !important;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .Work-management{
+    /* Work-management */
+    position: absolute;
+    width: 768px !important;
+    height: 1797.67px !important;
+    left: 0;
+    top: 1117px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100;
+    .Content2{
+      h1{
+        left: 50px !important;
+        top: 670px !important;
+      }
+      .Btn-get-started{
+        margin-left: 1115px !important;
+        top: 145px;
+      }
+    }
+  }
+}
+

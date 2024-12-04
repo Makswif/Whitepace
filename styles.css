@@ -244,6 +244,11 @@ header {
   border-radius: 8px;
 }
 
+@media (max-width: 1920px) {
+  html {
+    max-width: 1920px;
+  }
+}
 @media (max-width: 1440px) {
   header {
     /* Header */
@@ -384,19 +389,17 @@ header {
   justify-content: flex-start;
   align-items: center;
   padding: 140px 220px 140px 220px;
-  background: rgb(4, 56, 115);
+  overflow: hidden;
 }
 
 .elements {
-  /* Element */
   position: static;
-  width: 3051.8px;
+  width: 2451.8px;
   height: 547px;
-  /* Inside Auto Layout */
   flex: none;
   order: undefined;
   flex-grow: 0;
-  margin: 0px -590px;
+  margin: 0px -310px;
 }
 
 .Heading {
@@ -473,19 +476,16 @@ header {
 }
 
 .Btn-free-trial-button {
-  /* Btn-free-trial */
   position: relative;
   width: 219px;
   height: 63px;
-  /* Автолейаут */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   gap: 10;
   padding: 20px;
-  left: -210px;
-  /* Inside Auto Layout */
+  left: -180px;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -493,7 +493,6 @@ header {
   border-radius: 8px;
   border: 0px solid;
   background: hsl(213, 93%, 64%);
-  /* Paragraph/P2/Medium */
   color: rgb(255, 255, 255);
   font-family: Inter;
   font-size: 18px;
@@ -515,7 +514,7 @@ header {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 85px -340px;
+  margin: 85px -318px;
   z-index: 2;
 }
 
@@ -539,6 +538,12 @@ header {
 }
 
 @media (max-width: 1440px) {
+  .Customise-it-to-your-needs1 .icon {
+    top: 670px !important;
+  }
+  .Customise-it-to-your-needs1 .header {
+    left: -140px !important;
+  }
   .Hero-selection {
     /* Hero-section */
     position: absolute;
@@ -574,11 +579,9 @@ header {
     left: 0px;
   }
   .Btn-free-trial-button {
-    /* Btn-free-trial */
     position: static;
     width: 219px;
     height: 63px;
-    /* ?????????? */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -586,55 +589,55 @@ header {
     gap: 10;
     padding: 20px;
     z-index: 2;
-    /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 60px -510px;
+    margin: 60px -245px;
   }
   .Btn-free-trial img {
-    /* Group 212 */
     position: absolute;
     width: 10px;
     height: 10px;
-    /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 85px -315px;
+    margin: 85px -50px;
   }
   .Image-container {
-    /* Image-container */
     position: relative;
     width: 685px;
     height: 456.39px;
-    /* ?????????? */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 3.3252429962;
     padding: 0px;
-    /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 120px;
+    margin: 0px 450px;
     top: -100px;
   }
   .elements {
     position: relative;
-    width: 1988.85px;
+    width: 1688.85px;
     height: 433.11px;
     flex: none;
     order: undefined;
     flex-grow: 0;
     margin: 0px 0px;
-    left: -230px;
+    left: -220px;
     top: -20px;
   }
 }
 @media (max-width: 1152px) {
+  .Customise-it-to-your-needs1 .icon {
+    top: 650px !important;
+  }
+  .Customise-it-to-your-needs1 .header {
+    left: -40px !important;
+  }
   .Hero-selection {
     /* Hero-section */
     position: absolute;
@@ -650,22 +653,19 @@ header {
     padding: 140px 32px 140px 32px;
   }
   .Image-container {
-    /* Image-container */
     position: relative;
     width: 685px;
     height: 456.39px;
-    /* ?????????? */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 3.3252429962;
     padding: 0px;
-    /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: -10px 100px;
+    margin: -10px 450px;
     top: -90px;
   }
   .Heading {
@@ -687,23 +687,23 @@ header {
     margin: 0px 0px;
     left: 0px;
   }
+  .Heading p {
+    white-space: pre-line;
+  }
   .Btn-free-trial-button {
-    /* Btn-free-trial */
     position: static;
     width: 219px;
     height: 63px;
-    /* ?????????? */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     gap: 10;
     padding: 20px;
-    /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 60px -550px;
+    margin: 60px -250px;
   }
   .Btn-free-trial img {
     position: absolute;
@@ -719,6 +719,14 @@ header {
   }
 }
 @media (max-width: 768px) {
+  .Customise-it-to-your-needs1 .icon {
+    top: 690px !important;
+  }
+  .Customise-it-to-your-needs1 .header {
+    top: -330px;
+    position: relative;
+    left: -60px !important;
+  }
   .Hero-selection {
     /* Hero-section */
     position: absolute;
@@ -789,9 +797,12 @@ header {
     left: 280px;
   }
   .elements {
-    /* Group */
+    display: none;
+  }
+  .elements1 {
+    display: flex !important;
     position: absolute;
-    width: 1341.24px;
+    width: 1311.24px;
     height: 614.08px;
     left: -33.2%;
     right: 29.82%;
@@ -811,6 +822,17 @@ header {
   }
 }
 @media (max-width: 320px) {
+  .elements1 {
+    display: none !important;
+  }
+  .elements2 {
+    display: flex !important;
+    display: flex !important;
+    top: 380px;
+    position: relative;
+    width: 1400px;
+    left: 40px;
+  }
   .Hero-selection {
     /* Hero-section */
     position: absolute;
@@ -827,23 +849,21 @@ header {
     padding: 80px 16px 80px 16px;
   }
   .Heading {
-    /* Get More Done with whitepace */
-    position: static;
+    position: relative;
     width: 288px;
     height: 88px;
-    /* Автолейаут */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 24;
     padding: 0px;
-    /* Inside Auto Layout */
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    margin: 24px 0px;
+    margin: 124px 0px;
+    top: -400px;
   }
   .Heading p {
     /* Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks */
@@ -902,23 +922,25 @@ header {
     flex-grow: 0;
     margin: 60px 0px;
   }
+  .Btn-free-trial img {
+    top: 476px !important;
+    left: 585px !important;
+  }
   .Image-container {
-    /* Image-container */
-    position: static;
+    position: relative;
     width: 286px;
     height: 191px;
-    /* Автолейаут */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 4;
     padding: 0px;
-    /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
     margin: 100px 0px;
+    top: -500px;
   }
   .Btn-free-trial-button {
     position: relative;
@@ -934,7 +956,7 @@ header {
     order: 1;
     flex-grow: 0;
     margin: 60px 0px;
-    top: 100px;
+    top: -400px;
     left: 0px;
   }
 }
@@ -1152,10 +1174,10 @@ header {
   .Your-work {
     width: 1440px !important;
     height: 574px !important;
-    top: 5909.45px !important;
+    top: 1109.45px !important;
   }
   .Your-work #i1 {
-    left: -1180px !important;
+    left: -980px !important;
   }
   .Your-work #d1 {
     top: 100px;
@@ -1163,24 +1185,96 @@ header {
     position: relative;
   }
 }
+@media (width: 1152px) {
+  .Your-work {
+    width: 1152vw !important;
+    height: 701vh !important;
+  }
+}
+@media (max-width: 1440px) {
+  .Work-management {
+    position: absolute;
+    width: 1440px !important;
+    height: 1370.76px !important;
+    margin-left: -150px;
+    top: 748.39px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100;
+  }
+  .Work-management .Content2 h1 {
+    left: 80px;
+    position: relative;
+  }
+  .Work-management .Content2 .Btn-get-started {
+    left: -495px !important;
+  }
+  .Work-management .Work-Together-Image {
+    width: 630px;
+    left: 84px !important;
+    top: -70px;
+  }
+}
+@media (max-width: 1152px) {
+  .Work-Together-Image {
+    margin-left: 27px !important;
+  }
+  .Content2 .vector {
+    left: 1029px !important;
+  }
+  .Content2 .icon {
+    left: 965px !important;
+  }
+}
+@media (max-width: 768px) {
+  .Work-management {
+    /* Work-management */
+    position: absolute;
+    width: 768px !important;
+    height: 1797.67px !important;
+    left: 0;
+    top: 1117px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100;
+  }
+  .Work-management .Content2 h1 {
+    left: 50px !important;
+    top: 670px !important;
+  }
+  .Work-management .Content2 .Btn-get-started {
+    margin-left: 1115px !important;
+    top: 145px;
+  }
+}
+.elements1, .elements2 {
+  display: none;
+}
+
 .Work-management {
   /* Work-management */
   position: absolute;
   width: 1920px;
   height: 1588px;
-  left: 0;
-  top: 921px;
+  top: 1050px !important;
+  left: 160px !important;
   /* Автолейаут */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 100;
-  padding: 140px 220px 140px 220px;
 }
 
 .Content1 h1 {
   /* Project Management */
+  z-index: 5 !important;
   position: relative;
   width: 672px;
   height: 174px;
@@ -1328,7 +1422,7 @@ header {
   flex-grow: 0;
   margin: 0px 60px;
   background: rgb(196, 222, 253);
-  left: 700px;
+  left: 870px;
   top: -900px;
 }
 
@@ -1350,13 +1444,13 @@ header {
   align-self: stretch;
   flex-grow: 0;
   margin: 100px 0px;
-  left: 0px;
+  left: 130px;
   top: 1010px;
 }
 .Content2 h1 {
   /* Work together */
   position: static;
-  width: 670px;
+  width: 570px;
   height: 87px;
   /* Автолейаут */
   display: flex;
@@ -1419,7 +1513,7 @@ header {
   order: 1;
   flex-grow: 0;
   margin: 60px 0px;
-  left: -670px;
+  left: -575px;
   background: rgb(79, 156, 249);
   border-radius: 8px;
 }
@@ -1451,7 +1545,8 @@ header {
 
 .Work-Together-Image {
   /* Work Together Image */
-  position: static;
+  left: -220px !important;
+  position: relative;
   width: 710px;
   height: 661px;
   /* Inside Auto Layout */
@@ -1466,7 +1561,7 @@ header {
   width: 1921px;
   height: 759px;
   left: 0;
-  top: 2810px;
+  top: 3010px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -1477,11 +1572,13 @@ header {
 }
 .Customise-it-to-your-needs .Image-container {
   position: relative;
-  top: -450px !important;
+  left: 880px !important;
+  top: -450px;
 }
 .Customise-it-to-your-needs .vector {
+  z-index: 2;
   position: relative;
-  top: 80px !important;
+  top: -250px !important;
   width: 333px !important;
   height: 19px !important;
   left: 240px !important;
@@ -1506,7 +1603,7 @@ header {
 .Customise-it-to-your-needs1 h1 {
   /* Customise it to your needs */
   position: relative;
-  width: 669px;
+  width: 579px !important;
   height: 174px;
   /* Автолейаут */
   display: flex;
@@ -1607,9 +1704,14 @@ header {
   z-index: 2;
 }
 .Customise-it-to-your-needs1 .header {
-  top: -330px;
+  top: -420px;
   position: relative;
-  left: -80px;
+  left: -210px !important;
+  width: 30px;
+}
+
+.vector1 {
+  display: none;
 }
 
 button {
@@ -1621,10 +1723,15 @@ button {
     margin: 360px 0px 0px 0px;
   }
   .Content1 .vector {
-    top: 573.28px;
+    top: 441.28px;
+    left: 0px;
   }
 }
 @media (max-width: 1920px) {
+  #w1 {
+    z-index: 2;
+    top: 88px !important;
+  }
   .Content1 {
     position: relative;
     top: 210px;
@@ -1642,6 +1749,11 @@ button {
   }
 }
 @media (max-width: 1440px) {
+  #w1 {
+    z-index: 2;
+    top: 238px !important;
+    left: 310px !important;
+  }
   .Content1 {
     /* Content */
     position: static;
@@ -1661,26 +1773,22 @@ button {
     margin: 100px 0px;
   }
   .Content1 h1 {
-    /* Project Management */
-    top: -599px;
+    top: -349px;
     position: relative;
-    left: -150px;
+    left: 50px;
     width: 657px;
     height: 174px;
-    /* Автолейаут */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 24;
     padding: 0px;
-    /* Inside Auto Layout */
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
     margin: 24px 0px;
-    /* Header/H1 */
     color: rgb(33, 37, 41);
     font-family: Inter;
     font-size: 72px;
@@ -1768,7 +1876,16 @@ button {
     top: 90px;
   }
 }
+#w2 {
+  display: none;
+}
+
 @media (max-width: 1152px) {
+  #w1 {
+    z-index: 2;
+    top: 280px !important;
+    left: 270px !important;
+  }
   .Content1 {
     /* Content */
     position: absolute;
@@ -1830,6 +1947,20 @@ button {
   }
 }
 @media (max-width: 768px) {
+  #w2 {
+    display: flex;
+    position: relative;
+    top: -50px !important;
+    left: 210px !important;
+    width: 300px;
+    z-index: 0;
+  }
+  #w1 {
+    display: none;
+  }
+  #s1 {
+    width: 768px !important;
+  }
   .Content1 {
     /* Content */
     position: static;
@@ -1850,26 +1981,22 @@ button {
     margin: 100px 0px;
   }
   .Content1 h1 {
-    /* Project Management */
     position: relative;
     width: 728px;
     height: 65px;
-    /* Автолейаут */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     gap: 24;
     padding: 0px;
-    left: -160px !important;
-    top: 203px !important;
-    /* Inside Auto Layout */
+    left: 50px !important;
+    top: 241px !important;
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
     margin: 24px 0px;
-    /* Header/H3 */
     color: rgb(33, 37, 41);
     font-family: Inter;
     font-size: 54px;
@@ -1948,8 +2075,8 @@ button {
     order: 0;
     flex-grow: 0;
     margin: 0px 4px;
-    left: 480px;
-    top: 950px;
+    left: 483px !important;
+    top: 953px !important;
   }
   .Content1 .Image-container {
     position: absolute;
@@ -1964,6 +2091,17 @@ button {
   }
 }
 @media (max-width: 320px) {
+  #Wt {
+    left: 30px !important;
+    top: 107px !important;
+  }
+  #s1 {
+    width: 320px !important;
+  }
+  #ic1 {
+    top: -203px !important;
+    left: 80px !important;
+  }
   .Content1 {
     /* Content */
     position: relative;
@@ -1985,19 +2123,16 @@ button {
     margin: 100px 0px;
   }
   .Work-management {
-    /* Work-management */
     position: absolute;
-    width: 320px;
+    width: 320px !important;
     height: 1586.74px;
     left: 0;
     top: 869px;
-    /* Автолейаут */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 100;
-    padding: 80px 16px 80px 16px;
   }
   .Work-management h1 {
     position: relative;
@@ -2116,7 +2251,7 @@ button {
 }
 @media (max-width: 1440px) {
   .Content2 {
-    left: -37px !important;
+    left: -124px !important;
     top: 610px !important;
     width: 1440px !important;
   }
@@ -2130,13 +2265,14 @@ button {
   .Content2 p {
     width: 527px !important;
     height: 90px !important;
+    left: 840px;
   }
 }
 @media (max-width: 768px) {
   .Content2 {
     /* Content */
     position: static;
-    width: 728px;
+    width: 728px !important;
     height: 790.67px;
     /* Автолейаут */
     display: flex;
@@ -2182,9 +2318,12 @@ button {
     text-align: center;
   }
   .Content2 p {
-    width: 728px !important;
-    left: 110px;
+    width: 736px !important;
+    left: 70px;
     top: 1710px;
+  }
+  .Content2 #r1 {
+    white-space: normal;
   }
   .Content2 .Btn-get-started {
     position: relative;
@@ -2200,8 +2339,8 @@ button {
     order: 1;
     flex-grow: 0;
     margin: 60px 0px;
-    left: -370px;
-    top: 140px;
+    left: 61px !important;
+    top: 145px;
   }
   .Content2 .Work-Together-Image {
     position: relative;
@@ -2212,18 +2351,18 @@ button {
     flex-grow: 0;
     margin: 100px 0px;
     top: 910px;
-    left: -380px;
+    left: 40px !important;
   }
   .Content2 .vector {
-    left: -270px;
-    top: 594px;
+    left: 134px !important;
+    top: 630.7px;
     position: relative;
     width: 241.68px;
     height: 29.41px;
   }
   .Content2 .icon {
-    left: -310px;
-    top: 235px;
+    left: 120px !important;
+    top: 240px;
     position: relative;
   }
 }
@@ -2250,7 +2389,7 @@ button {
     line-height: 44px;
     letter-spacing: -2%;
     text-align: center;
-    left: 40px !important;
+    left: 30px !important;
     top: 1030px !important;
   }
   .Content2 p {
@@ -2286,8 +2425,8 @@ button {
     order: 1;
     flex-grow: 0;
     margin: 60px 0px;
-    left: -420px;
-    top: 330px;
+    left: -10px !important;
+    top: 320px;
   }
   .Content2 .Btn-get-started {
     /* Btn-get-started */
@@ -2305,8 +2444,7 @@ button {
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 60px 0px;
-    left: -405px;
+    margin: 60px 110px;
   }
   .Content2 .icon {
     position: relative;
@@ -2322,8 +2460,8 @@ button {
     order: 1;
     flex-grow: 0;
     margin: 0px 10px;
-    top: 380px;
-    left: -345px;
+    top: 385px;
+    left: 65px !important;
   }
   .Content2 .vector {
     position: absolute;
@@ -2334,13 +2472,17 @@ button {
   }
 }
 @media (max-width: 1440px) {
+  #s1 {
+    width: 1276px;
+  }
   .Customise-it-to-your-needs {
-    width: 1440px;
+    width: 1064.5px;
     height: 759px;
     top: 2410px;
   }
   .Customise-it-to-your-needs h1 {
     top: -90px;
+    left: -140px;
   }
   .Customise-it-to-your-needs .vector {
     top: 205px !important;
@@ -2348,9 +2490,13 @@ button {
   }
   .Customise-it-to-your-needs .Image-container {
     top: 150px !important;
+    left: 750px !important;
   }
 }
 @media (max-width: 1152px) {
+  #s1 {
+    top: -60px !important;
+  }
   .Customise-it-to-your-needs {
     /* Customise it to your needs */
     position: absolute;
@@ -2377,7 +2523,7 @@ button {
     letter-spacing: -2%;
     text-align: left;
     top: 200px !important;
-    left: 60px;
+    left: 70px;
   }
   .Customise-it-to-your-needs p {
     /* Paragraph/P2/Regular */
@@ -2397,7 +2543,7 @@ button {
     order: 0;
     flex-grow: 0;
     margin: 2.6763846874px 0px;
-    left: 260px;
+    left: 160px !important;
   }
 }
 @media (max-width: 768px) {
@@ -2419,7 +2565,7 @@ button {
   }
   .Customise-it-to-your-needs h1 {
     /* Use as Extension */
-    position: static;
+    position: relative;
     width: 704px;
     height: 65px;
     /* Автолейаут */
@@ -2443,11 +2589,13 @@ button {
     line-height: 65px;
     letter-spacing: -2%;
     text-align: center;
+    left: 50px !important;
+    top: 0px !important;
   }
   .Customise-it-to-your-needs p {
     /* Use the web clipper extension, available on Chrome and Firefox, to save web pages or take screenshots as notes. */
     position: relative;
-    width: 704px;
+    width: 724px;
     height: 60px;
     /* Автолейаут */
     display: flex;
@@ -2471,7 +2619,7 @@ button {
     letter-spacing: -2%;
     text-align: center;
     top: -290px;
-    left: 10px;
+    left: 30px;
   }
   .Customise-it-to-your-needs button {
     position: relative;
@@ -2487,12 +2635,11 @@ button {
     order: 1;
     flex-grow: 0;
     margin: 60px 0px;
-    left: auto;
+    left: 20px;
     top: -290px;
   }
   .Customise-it-to-your-needs .icon {
-    top: 570px;
-    left: 440px;
+    top: 593px !important;
     z-index: 4;
   }
   .Customise-it-to-your-needs .Image-container {
@@ -2504,10 +2651,21 @@ button {
     flex-grow: 0;
     margin: 4px 0px;
     top: 400px !important;
-    left: auto;
+    left: 20px !important;
   }
 }
 @media (max-width: 320px) {
+  #wt {
+    top: 0px;
+  }
+  #w2 {
+    display: flex;
+    position: relative;
+    top: 16px !important;
+    left: 53px !important;
+    width: 170px;
+    z-index: 0;
+  }
   .Customise-it-to-your-needs {
     /* Customise it to your needs */
     position: absolute;
@@ -2522,30 +2680,26 @@ button {
     align-items: center;
     gap: 60;
     padding: 80px 16px 80px 16px;
-    top: 2510px;
+    top: 3010px;
   }
   .Customise-it-to-your-needs h1 {
-    /* Use as Extension */
     position: relative;
-    width: 288px;
+    width: 278px;
     height: 88px;
-    /* Автолейаут */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 24;
     padding: 0px;
-    left: auto !important;
-    top: -420px !important;
+    left: 15px !important;
+    top: 60px !important;
     z-index: 3;
-    /* Inside Auto Layout */
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
     margin: 24px 0px;
-    /* Header/H4 */
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 36px;
@@ -2580,8 +2734,8 @@ button {
     line-height: 30px;
     letter-spacing: -2%;
     text-align: center;
-    top: -680px;
-    left: auto;
+    top: -180px;
+    left: 10px;
   }
   .Customise-it-to-your-needs button {
     /* Btn-get-started */
@@ -2600,12 +2754,12 @@ button {
     order: 1;
     flex-grow: 0;
     margin: 60px 0px;
-    top: -700px;
-    left: auto;
+    top: -130px;
+    left: -10px;
   }
   .Customise-it-to-your-needs .Image-container {
     /* Image */
-    position: static;
+    position: relative;
     width: 284.5px;
     height: 198.65px;
     /* Inside Auto Layout */
@@ -2613,6 +2767,8 @@ button {
     order: 0;
     flex-grow: 0;
     margin: 4px 0px;
+    top: 450px !important;
+    left: -10px !important;
   }
   .Customise-it-to-your-needs .vector {
     width: 137px !important;
@@ -2624,8 +2780,8 @@ button {
   }
   .Customise-it-to-your-needs .icon {
     position: relative;
-    top: -195px;
-    left: 60px;
+    top: 375px !important;
+    left: 50px !important;
     z-index: 3;
   }
 }
@@ -2766,19 +2922,19 @@ button {
     top: 4600px;
   }
   .Customise-it-to-your-needs1 .Image-container {
-    /* Image */
-    position: static;
+    position: relative;
     width: 534px;
     height: 397.95px;
-    /* Inside Auto Layout */
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 4px 0px;
+    top: 0px;
+    left: 33px;
   }
   .Customise-it-to-your-needs1 h1 {
     position: relative;
-    width: 728px;
+    width: 728px !important;
     height: 65px;
     display: flex;
     flex-direction: column;
@@ -2858,37 +3014,18 @@ button {
     left: 480px;
   }
 }
-@media (max-width: 320px) {
-  .Customise-it-to-your-needs1 {
-    /* Customise it to your needs */
-    position: absolute;
-    width: 320px;
-    height: 860.62px;
-    left: 0;
-    top: 3266.4px;
-    /* Автолейаут */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 60;
-    padding: 100px 16px 100px 16px;
+@media screen and (max-width: 320px) {
+  .Customise-it-to-your-needs1 #pp0 {
+    display: none !important;
   }
-  .Customise-it-to-your-needs1 .Image-container {
-    /* Image */
-    position: static;
-    width: 288px;
-    height: 214.62px;
-    /* Inside Auto Layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 4px 0px;
+  .Customise-it-to-your-needs1 #pp1 {
+    display: none !important;
   }
-  .Customise-it-to-your-needs1 h1 {
+  .Customise-it-to-your-needs1 #p1:before {
+    content: "Customise itto your needs";
     /* Customise it to your needs */
     position: relative;
-    width: 288px;
+    width: 288px !important;
     height: 104px;
     /* Автолейаут */
     display: flex;
@@ -2910,6 +3047,74 @@ button {
     line-height: 52px;
     letter-spacing: 0%;
     text-align: center;
+  }
+  .Customise-it-to-your-needs1 #p0:before {
+    content: "Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.";
+    position: relative;
+    width: 298px;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    color: rgb(33, 37, 41);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+}
+#f0 {
+  display: none !important;
+}
+
+@media (max-width: 320px) {
+  .Customise-it-to-your-needs1 {
+    position: absolute;
+    width: 320px;
+    height: 860.62px;
+    left: 0;
+    top: 3766.4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60;
+    padding: 100px 16px 100px 16px;
+  }
+  .Customise-it-to-your-needs1 .Image-container {
+    /* Image */
+    position: static;
+    width: 288px;
+    height: 214.62px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 4px 0px;
+  }
+  .Customise-it-to-your-needs1 .vector {
+    display: none !important;
+  }
+  .Customise-it-to-your-needs1 #f0 {
+    display: flex !important;
+    display: flex !important;
+    position: relative;
+    top: 419px;
+    left: 230px;
+    z-index: -1;
+  }
+  .Customise-it-to-your-needs1 h1 {
+    width: 320px !important;
   }
   .Customise-it-to-your-needs1 p {
     /* Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API. */
@@ -2951,7 +3156,8 @@ button {
     order: 1;
     flex-grow: 0;
     margin: 60px 0px;
-    left: 140px;
+    left: 142px;
+    top: 604px;
   }
   .Customise-it-to-your-needs1 .vector {
     width: 157.34px;
@@ -2961,8 +3167,29 @@ button {
   }
   .Customise-it-to-your-needs1 .icon {
     position: relative;
-    top: 770px;
+    top: 843px !important;
     left: 270px;
+  }
+}
+@media (max-width: 320px) {
+  .Content2 {
+    width: 320px !important;
+  }
+  .Content2 .vector1 {
+    display: flex;
+    position: absolute;
+    left: 150px;
+    top: 1075px;
+    z-index: -1;
+  }
+  .Content2 .vector {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .Btn-free-trial img {
+    left: 805px;
+    top: 495px;
   }
 }
 .Pricing {
@@ -3532,7 +3759,7 @@ button {
   width: 1921px;
   height: 574px;
   left: 0;
-  top: 6602.09px;
+  top: 1102.09px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
