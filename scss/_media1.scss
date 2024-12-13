@@ -1,4 +1,12 @@
 @media (max-width: 1440px) {
+  .Customise-it-to-your-needs1{
+    .icon{
+      top: 867px !important;
+    }
+    .header{
+      margin: 0px -210px;
+    }
+  }
   .Hero-selection{
     /* Hero-section */
     position: absolute;
@@ -36,11 +44,9 @@
     left: 0px;
   }
   .Btn-free-trial-button{
-    /* Btn-free-trial */
     position: static;
     width: 219px;
     height: 63px;
-    /* ?????????? */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -48,60 +54,59 @@
     gap: 10;
     padding: 20px;
     z-index: 2;
-
-    /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 60px -510px;
+    margin: 60px -245px;
   }
   .Btn-free-trial{
     img{
-      /* Group 212 */
       position: absolute;
       width: 10px;
       height: 10px;
-      /* Inside Auto Layout */
       flex: none;
       order: 1;
       flex-grow: 0;
-      margin: 85px -315px;
+      margin: 85px -50px;
     }
   }
   .Image-container{
-    /* Image-container */
     position: relative;
     width: 685px;
     height: 456.39px;
-    /* ?????????? */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 3.3252429962158203;
+    gap: 3.3252429962;
     padding: 0px;
-
-
-    /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 120px;
+    margin: 0px 450px;
     top: -100px;
   }
   .elements{
     position: relative;
-    width: 1988.85px;
+    width: 1688.85px;
     height: 433.11px;
     flex: none;
     order: undefined;
     flex-grow: 0;
     margin: 0px 0px;
-    left: -230px;
+    left: -220px;
     top: -20px;
   }
 }
 @media (max-width: 1152px) {
+  .Customise-it-to-your-needs1{
+    .icon{
+      top: 827px !important;
+    }
+    .header{
+      margin: 0px -200px;
+    }
+  }
   .Hero-selection{
     /* Hero-section */
     position: absolute;
@@ -118,24 +123,19 @@
 
   }
   .Image-container{
-    /* Image-container */
     position: relative;
     width: 685px;
     height: 456.39px;
-    /* ?????????? */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 3.3252429962158203;
+    gap: 3.3252429962;
     padding: 0px;
-
-
-    /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: -10px 100px;
+    margin: -10px 450px;
     top: -90px;
   }
   .Heading{
@@ -158,26 +158,24 @@
     flex-grow: 1;
     margin: 0px 0px;
     left: 0px;
+    p{
+      white-space: pre-line;
+    }
   }
   .Btn-free-trial-button{
-    /* Btn-free-trial */
     position: static;
     width: 219px;
     height: 63px;
-    /* ?????????? */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     gap: 10;
     padding: 20px;
-
-
-    /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 60px -550px;
+    margin: 60px -250px;
   }
   .Btn-free-trial{
     img{
@@ -188,13 +186,23 @@
       order: 1;
       flex-grow: 0;
       margin: 85px -315px;
-      left: 587px;
-      top: 370px;
+      left: 580px;
+      top: 470px;
       z-index: 3;
     }
   }
 }
 @media (max-width: 768px) {
+  .Customise-it-to-your-needs1{
+    .icon{
+      top: 690px !important;
+    }
+    .header{
+      top: -330px;
+      position: relative;
+      left: -60px !important;
+    }
+  }
   .Hero-selection{
     /* Hero-section */
     position: absolute;
@@ -269,13 +277,16 @@
     left: 280px;
   }
   .elements{
-    /* Group */
+    display: none;
+  }
+  .elements1{
+    display: flex !important;
     position: absolute;
-    width: 1341.24px;
+    width: 1311.24px;
     height: 614.08px;
     left: -33.2%;
     right: 29.82%;
-    top: 13.50%;
+    top: 13.5%;
     bottom: -3.61%;
   }
   .Image-container{
@@ -291,6 +302,17 @@
   }
 }
 @media (max-width: 320px) {
+  .elements1{
+    display: none !important;
+  }
+  .elements2{
+    display: flex !important;
+    display: flex !important;
+    top: 380px;
+    position: relative;
+    width: 1400px;
+    left: 40px;
+  }
   .Hero-selection{
     /* Hero-section */
     position: absolute;
@@ -307,25 +329,21 @@
     padding: 80px 16px 80px 16px;
   }
   .Heading{
-    /* Get More Done with whitepace */
-    position: static;
+    position: relative;
     width: 288px;
     height: 88px;
-    /* Автолейаут */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 24;
     padding: 0px;
-
-
-    /* Inside Auto Layout */
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    margin: 24px 0px;
+    margin: 124px 0px;
+    top: -400px;
     p{
       /* Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks */
       position: static;
@@ -389,26 +407,26 @@
     order: 1;
     flex-grow: 0;
     margin: 60px 0px;
+    img{
+      top: 476px !important;
+      left: 585px !important;
+    }
   }
   .Image-container{
-    /* Image-container */
-    position: static;
+    position: relative;
     width: 286px;
     height: 191px;
-    /* Автолейаут */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 4;
     padding: 0px;
-
-
-    /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
     margin: 100px 0px;
+    top: -500px;
   }
   .Btn-free-trial-button{
     position: relative;
@@ -424,7 +442,455 @@
     order: 1;
     flex-grow: 0;
     margin: 60px 0px;
-    top: 100px;
+    top: -400px;
     left: 0px;
+  }
+}
+@media  (max-width: 1440px) {
+  .Pricing{
+    margin-top: -700px;
+    margin-left: -300px;
+  }
+  .Price-board3{
+    .ciftq{
+      top: -440px !important;
+    }
+    h1{
+      top: -460px;
+    }
+    .Price-board3{
+      .i6{
+        top: 680px;
+      }
+    }
+  }
+}
+@media (max-width: 1152px) {
+  .Pricing{
+    margin-top: -700px;
+    margin-left: -240px;
+    .Heading{
+      img{
+        left: 827px !important;
+        top: 105px !important;
+      }
+    }
+  }
+  .Price-board1{
+    /* Price-board */
+    width: 341.33px !important;
+    height: 697px !important;
+    left: -450px !important;
+    p{
+      /* Paragraph/P3/Regular */
+      color: rgb(33, 37, 41);
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: -2%;
+      text-align: left;
+      white-space: pre-line;
+    }
+    button{
+      top: 0px !important;
+    }
+
+  }
+  .Price-board2{
+    position: relative;
+    width: 302.33px !important;
+    height: 771px !important;
+    p{
+      /* Paragraph/P2/Medium */
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 23px;
+      letter-spacing: -2%;
+      text-align: left;
+      white-space: pre-line;
+    }
+  }
+  .Price-board3{
+    margin: -9px -137px !important;
+    .ciftq{
+      white-space: pre-line;
+      margin-top: -40px !important;
+    }
+    h1{
+      top: -460px !important;
+    }
+    button{
+      top: -40px !important;
+    }
+    .i6{
+      top: 700px !important;
+    }
+  }
+  #o2{
+    white-space: pre-line;
+  }
+}
+@media (max-width: 768px) {
+  #kq1{
+    width: 1031px !important;
+  }
+  .Pricing{
+    overflow: hidden;
+    top: 6440px !important;
+    left: -400px !important;
+    height: 1930px !important;
+  }
+    .Heading{
+      img{
+        top: -343px !important;
+      }
+      h1{
+        /* Header/H3 */
+        color: rgb(33, 37, 41);
+        font-family: Inter;
+        font-size: 54px !important;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: -2%;
+        text-align: center;
+      }
+      p{
+        white-space: pre-line !important;
+        br{
+          display: none;
+        }
+      }
+    }
+    .Price-board2{
+      width: 472.33px !important;
+      height: 711px !important;
+      /* Автолейаут */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 25;
+      padding: 80px 44px 80px 44px;
+      p{
+        top: -20px !important;
+        white-space: normal;
+        br{
+          display: none;
+        }
+        #r4{
+          white-space: pre;
+        }
+      }
+      .Personal{
+        top: 60px !important;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+      .i1{
+        top: 305px !important;
+      }
+      .i2{
+        top: 360px !important;
+      }
+      .i3{
+        top: 411px !important;
+      }
+      .i4{
+        top: 465px !important;
+      }
+      .i5{
+        top: 515px !important;
+      }
+      .i6{
+        top: 565px !important;
+      }
+      .khft{
+        top: -520px !important;
+      }
+      button{
+        top: -60px !important;
+        position: relative;
+      }
+    }
+  }
+  .Price-board3{
+    top: -1468px !important;
+    left: 558px !important;
+  }
+
+@media (max-width: 320px) {
+  .Pricing{
+    overflow: hidden;
+  }
+  .Slider{
+    position: relative;
+    top: -2750px;
+    left: -350px;
+    display: flex !important;
+    #u1{
+      left: -10px;
+      position: relative;
+    }
+    #u3{
+      left: 10px;
+      position: relative;
+    }
+  }
+  .Pricelist{
+    left: 565px !important;
+    top: 330px !important;
+  }
+  #v1{
+    display: flex !important;
+    top: -2628px;
+    left: 80px;
+    position: relative;
+    z-index: -1;
+    width: 140px;
+  }
+  #kq1{
+    .Heading{
+      img{
+        display: none;
+      }
+      h1{
+        width: 318px !important;
+        left: 430px !important;
+        top: -1700px !important;
+      }
+      p{
+        /* Whether you want to get organized, keep your personal life on track, or boost workplace productivity, Evernote has the right plan for you. */
+        width: 298px !important;
+        top: -1740px !important;
+        left: 450px !important;
+      }
+    }
+    .Price-board2{
+      width: 242.33px !important;
+      height: 650px !important;
+    }
+  }
+}
+@media (max-width: 1440px) {
+  .Your-work{
+    width: 1364px !important;
+    height: 574px !important;
+    top: 1109.45px !important;
+    h1{
+      width: 1585px !important;
+      left: 200px !important;
+    }
+    button{
+      left: 935px !important;
+    }
+    #i2{
+      left: 1250px !important;
+    }
+    #i3{
+      left: 763px !important;
+    }
+    p{
+      left: 470px !important;
+    }
+    #i1{
+      left: -980px !important;
+    }
+    #d1{
+      top: 100px !important;
+      left: -130px !important;
+      position: relative;
+    }
+  }
+}
+@media (max-width: 1152px) {
+  #i4{
+    display: flex !important;
+    top: -1280px;
+    position: relative;
+    left: 280px;
+  }
+}
+@media (width: 1152px) {
+  .Your-work{
+    width: 1152vw !important;
+    height: 701vh !important;
+  }
+}
+@media (max-width: 1440px) {
+  .Work-management{
+    position: absolute;
+    width: 1440px !important;
+    height: 1370.76px !important;
+    margin-left: -150px;
+    top: 748.39px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100;
+    .Content2{
+      h1{
+        left: 80px;
+        position: relative;
+      }
+      .Btn-get-started{
+        left: -495px !important;
+      }
+    }
+    .Work-Together-Image{
+      width: 630px;
+      left: 84px !important;
+      top: -70px;
+    }
+  }
+}
+@media (max-width: 1152px) {
+  .Work-Together-Image{
+    margin-left: 27px !important;
+
+  }
+  .Content2 {
+    .vector{
+      left: 1029px !important;
+    }
+    .icon {
+      left: 965px !important;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .Work-management{
+    /* Work-management */
+    position: absolute;
+    width: 768px !important;
+    height: 1797.67px !important;
+    left: 0;
+    top: 1117px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100;
+    .Content2{
+      h1{
+        left: 50px !important;
+        top: 670px !important;
+      }
+      .Btn-get-started{
+        margin-left: 1115px !important;
+        top: 145px;
+      }
+    }
+  }
+}
+@media (max-width: 1440px) {
+  .Pricing{
+    width: 1250px !important;
+    .Heading{
+      h1{
+        position: relative;
+        width: 1440px;
+        height: 171px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 24;
+        padding: 0px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 60px 0px;
+        top: 0px;
+        left: -120px;
+
+      }
+    }
+  }
+  .Pricelist{
+    left: 260px;
+  }
+  .Price-board3{
+    width: 392.33px !important;
+    height: 714px !important;
+    top: -1535px !important;
+    left: 538px !important;
+    p{
+      width: 310px;
+    }
+  }
+  .Price-board1{
+    width: 392.33px !important;
+    height: 714px !important;
+    top: 100px !important;
+    left: -490px !important;
+    p{
+      width: 304.33px !important;
+    }
+  }
+}
+@media (max-width: 1152px){
+  .Pricing{
+    .Heading{
+      h1{
+        width: 1152px !important;
+        top: -5px !important;
+        left: 260px !important;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .Price-board3{
+    top: -1475px !important;
+    left: 708px !important;
+  }
+  .Pricelist{
+    left: 490px;
+    width: 768px;
+  }
+
+  .Pricing{
+    .Heading{
+      img{
+        left: 872px !important;
+        top: 90px !important;
+      }
+      h1{
+        width: 768px !important;
+        left: 500px !important;
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  #kq1{
+    width: 542px !important;
+  }
+  .Price-board2{
+    p{
+      white-space: pre-line;
+    }
+  }
+  .Price-board3{
+    margin: 42px -337px !important;
+  }
+  .Pricing{
+    top: 5650px !important;
+    left: -390px !important;
+    .Heading{
+      top: 1790px !important;
+    }
   }
 }

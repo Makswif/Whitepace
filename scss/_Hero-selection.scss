@@ -9,19 +9,16 @@
     justify-content: flex-start;
     align-items: center;
     padding: 140px 220px 140px 220px;
-    
-    background: rgb(4, 56, 115);
-    }
+    overflow: hidden;
+}
     .elements{
-        /* Element */
-    position: static;
-    width: 3051.8px;
-    height: 547px;
-    /* Inside Auto Layout */
-    flex: none;
-    order: undefined;
-    flex-grow: 0;
-    margin: 0px -590px;
+        position: static;
+        width: 2451.8px;
+        height: 547px;
+        flex: none;
+        order: undefined;
+        flex-grow: 0;
+        margin: 0px -310px;
     }
     .Heading{
         position: absolute;
@@ -102,38 +99,31 @@ text-align: left;
        }
     }
     .Btn-free-trial-button{
-        /* Btn-free-trial */
-position: relative;
-width: 219px;
-height: 63px;
-/* Автолейаут */
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: center;
-gap: 10;
-padding: 20px;
-        left: -210px;
-
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 60px -330px;
-
-border-radius: 8px;
-border: 0px solid;
-background:hsl(213, 93%, 64%);
-
-/* Paragraph/P2/Medium */
-color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 18px;
-font-weight: 500;
-line-height: 23px;
-letter-spacing: -2%;
-text-align: left;
-white-space: nowrap;
+        position: relative;
+        width: 219px;
+        height: 63px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10;
+        padding: 20px;
+        left: -180px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 60px -330px;
+        border-radius: 8px;
+        border: 0px solid;
+        background: hsl(213, 93%, 64%);
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: -2%;
+        text-align: left;
+        white-space: nowrap;
     }
     .Btn-free-trial{
         position: static;
@@ -145,7 +135,7 @@ white-space: nowrap;
             flex: none;
             order: 1;
             flex-grow: 0;
-            margin: 85px -340px;
+            margin: 85px -318px;
             z-index: 2;
         }
     }

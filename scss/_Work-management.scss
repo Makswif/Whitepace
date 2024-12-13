@@ -1,21 +1,24 @@
+.elements1, .elements2{
+  display: none;
+}
 .Work-management{
   /* Work-management */
   position: absolute;
   width: 1920px;
   height: 1588px;
-  left: 0;
-  top: 921px;
+  top: 1050px !important;
+  left: 160px !important;
   /* Автолейаут */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 100;
-  padding: 140px 220px 140px 220px;
 }
 .Content1{
   h1{
     /* Project Management */
+    z-index: 5 !important;
     position: relative;
     width: 672px;
     height: 174px;
@@ -178,7 +181,7 @@
     flex-grow: 0;
     margin: 0px 60px;
     background: rgb(196, 222, 253);
-    left: 700px;
+    left: 870px;
     top: -900px;
   }
 }
@@ -202,12 +205,12 @@
   align-self: stretch;
   flex-grow: 0;
   margin: 100px 0px;
-  left: 0px;
+  left: 130px;
   top: 1010px;
   h1{
     /* Work together */
     position: static;
-    width: 670px;
+    width: 570px;
     height: 87px;
     /* Автолейаут */
     display: flex;
@@ -273,7 +276,7 @@
     order: 1;
     flex-grow: 0;
     margin: 60px 0px;
-    left: -670px;
+    left: -575px;
     background: rgb(79, 156, 249);
     border-radius: 8px;
   }
@@ -305,7 +308,8 @@
 }
 .Work-Together-Image{
   /* Work Together Image */
-  position: static;
+  left: -220px !important;
+  position: relative;
   width: 710px;
   height: 661px;
   /* Inside Auto Layout */
@@ -319,7 +323,7 @@
   width: 1921px;
   height: 759px;
   left: 0;
-  top: 2810px;
+  top: 3010px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -329,11 +333,13 @@
   background: rgb(4, 56, 115);
   .Image-container {
     position: relative;
-    top: -450px !important;
+    left: 880px !important;
+    top: -450px;
   }
   .vector{
+    z-index: 2;
     position: relative;
-    top: 80px !important;
+    top: -250px !important;
     width: 333px !important;
     height: 19px !important;
     left: 240px !important;
@@ -357,7 +363,7 @@
   h1{
     /* Customise it to your needs */
     position: relative;
-    width: 669px;
+    width: 579px !important;
     height: 174px;
     /* Автолейаут */
     display: flex;
@@ -423,7 +429,7 @@
     line-height: 30px;
     letter-spacing: -2%;
     text-align: left;
-    top: 450px;
+    top: 630px;
   }
   button{
     /* Btn-get-started */
@@ -458,14 +464,15 @@
   }
   .icon{
     position: relative;
-    top: 670px;
-    left: 140px;
+    top: 866px;
+    left: 130px;
     z-index: 2;
   }
   .header{
-    top: -330px;
+    top: -420px;
     position: relative;
-    left: -80px;
+    left: 70px !important;
+    width: 30px;
   }
 }
 
