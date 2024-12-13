@@ -222,3 +222,207 @@
     }
   }
 }
+@media (max-width: 1440px) {
+  .Our_sponsors{
+    position: absolute;
+    width: 1440px;
+    height: 538px;
+    left: -1px;
+    top: 7578.58px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100;
+    padding: 140px 0px 140px 32px;
+    .Sponsors{
+      /* sponsors */
+      position: static;
+      width: 1376px;
+      height: 71px;
+      /* Автолейаут */
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px;
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 100px 0px;
+    }
+    h1{
+      /* Our sponsors */
+      position: static;
+      width: 1376px;
+      height: 87px;
+      /* Автолейаут */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 100;
+      padding: 140px 32px 140px 32px;
+
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 100px 0px;
+    }
+    #p1{
+      left: 670px;
+      top: 291.87px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .Our_sponsors{
+    position: absolute;
+    width: 768px;
+    height: 1015.81px;
+    left: 0;
+    top: 9178.65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100;
+    padding: 140px 20px 140px 20px;
+    .Sponsors{
+      position: relative;
+      width: 728px;
+      height: 570.81px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 100px;
+      padding: 0px;
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 0px 0px;
+      top: -50px;
+
+    }
+    h1{
+      /* Our sponsors */
+      position: static;
+      width: 728px;
+      height: 65px;
+      /* Автолейаут */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 100;
+      padding: 140px 20px 140px 20px;
+
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 100px 0px;
+
+      /* Header/H3 */
+      color: rgb(33, 37, 41);
+      font-family: Inter;
+      font-size: 54px;
+      font-weight: 700;
+      line-height: 65px;
+      letter-spacing: -2%;
+      text-align: center;
+    }
+    #p1{
+      left: 340px;
+      top: 371.87px;
+      width: 259.15px;
+      height: 38.47px;
+    }
+  }
+}
+@media (max-width: 320px) {
+  .Our_sponsors{
+    /* Our sponsors */
+    position: absolute;
+    width: 320px;
+    height: 813.16px;
+    left: 0;
+    top: 8269.6px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 16px 80px 16px;
+    .Sponsors{
+      /* sponsors */
+      position: static;
+      width: 288px;
+      height: 509.16px;
+      /* Автолейаут */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 100;
+      padding: 0px;
+
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 100px 0px;
+    }
+    h1{
+      /* Our sponsors */
+      position: static;
+      width: 288px;
+      height: 44px;
+      /* Автолейаут */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 100;
+      padding: 80px 16px 80px 16px;
+
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 100px 0px;
+
+      /* Header/H4 */
+      color: rgb(33, 37, 41);
+      font-family: Inter;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 44px;
+      letter-spacing: -2%;
+      text-align: center;
+    }
+    #p1{
+      left: 130px;
+      top: 141.87px;
+      width: 189.15px;
+      height: 22.47px;
+    }
+    .heading{
+      margin: -140px 0px;
+    }
+  }
+}

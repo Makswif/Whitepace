@@ -808,51 +808,73 @@
     z-index: 2;
   }
 }
-//.Our_sponsors{
-//  /* Our sponsors */
-//  position: absolute;
-//  width: 1922px;
-//  height: 538px;
-//  left: -1px;
-//  top: 6587.22px;
-//  /* Автолейаут */
-//  display: flex;
-//  flex-direction: column;
-//  justify-content: center;
-//  align-items: center;
-//  gap: 100;
-//  padding: 140px 220px 140px 220px;
-//  h1{
-//    /* Our sponsors */
-//    position: static;
-//    width: 1482px;
-//    height: 87px;
-//    /* Автолейаут */
-//    display: flex;
-//    flex-direction: column;
-//    justify-content: center;
-//    align-items: center;
-//    gap: 100;
-//    padding: 140px 220px 140px 220px;
-//
-//
-//    /* Inside Auto Layout */
-//    flex: none;
-//    order: 0;
-//    align-self: stretch;
-//    flex-grow: 0;
-//    margin: 100px 0px;
-//
-//    /* Header/H1 */
-//    color: rgb(33, 37, 41);
-//    font-family: Inter;
-//    font-size: 72px;
-//    font-weight: 700;
-//    line-height: 87px;
-//    letter-spacing: -2%;
-//    text-align: center;
-//  }
-//  .Sponsors{
-//
-//  }
-//}
+.Our_sponsors{
+  /* Our sponsors */
+  position: absolute;
+  width: 1922px;
+  height: 538px;
+  left: -1px;
+  top: 8267.22px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100;
+  padding: 140px 220px 140px 220px;
+  h1{
+    /* Our sponsors */
+    position: static;
+    width: 1482px;
+    height: 87px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100;
+    padding: 140px 220px 140px 220px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 100px 0px;
+
+    /* Header/H1 */
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 87px;
+    letter-spacing: -2%;
+    text-align: center;
+  }
+  #p1{
+    /* Vector6 */
+    position: absolute;
+    width: 326.15px;
+    height: 42.47px;
+    left: 1105px;
+    top: 386.87px;
+    z-index: -1;
+
+  }
+  .Sponsors{
+    position: static;
+    width: 1482px;
+    height: 71px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 234.5px;
+  }
+}
