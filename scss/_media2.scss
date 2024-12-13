@@ -426,3 +426,275 @@
     }
   }
 }
+@media (max-width: 1440px) {
+  .Apps{
+    /* Apps */
+    position: absolute;
+    width: 1440px;
+    height: 750.8px;
+    left: 0;
+    top: 8408.58px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 100;
+    padding: 140px 32px 140px 32px;
+    #p2{
+      margin: 100px -3080px;
+    }
+    .heading{
+      /* Heading */
+      position: static;
+      width: 694px;
+      height: 468px;
+      /* Автолейаут */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 60;
+      padding: 0px;
+
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      flex-grow: 1;
+      margin: 30px 3080px;
+    }
+    p{
+      width: 694px;
+      height: 60px;
+    }
+  }
+}
+@media (max-width: 1152px) {
+  .Apps{
+
+    .heading{
+      position: relative;
+      width: 460px;
+      height: 545px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 60;
+      padding: 0px;
+      flex: none;
+      order: 1;
+      flex-grow: 1;
+      left: 150px;
+    }
+    h1{
+      /* Work with Your Favorite Apps Using whitepace */
+      position: static;
+      width: 460px;
+      height: 308px;
+      /* Автолейаут */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 24;
+      padding: 0px;
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 24px 0px;
+
+
+      /* Header/H2 */
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 77px;
+      letter-spacing: -2%;
+      text-align: left;
+    }
+    p{
+      /* Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success. */
+      position: static;
+      width: 460px;
+      height: 90px;
+      /* Автолейаут */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 24;
+      padding: 0px;
+
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 24px 0px;
+
+      /* Paragraph/P2/Regular */
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: -2%;
+      text-align: left;
+    }
+    #p3{
+      top: 235px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .Apps{
+    /* Apps */
+    position: absolute;
+    width: 792px;
+    height: 1109.33px;
+    left: 0;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100;
+    padding: 140px 20px 140px 20px;
+    top: 10475.58px;
+    #p1{
+      left: 400px !important;
+      top: -260px !important;
+    }
+    #p2{
+      position: relative;
+      width: 782px;
+      height: 570.8px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 100px -3010px;
+      top: -1280px;
+    }
+    h1{
+      position: relative;
+      width: 768px;
+      left: -270px;
+      top: 50px;
+    }
+    .heading{
+      position: relative;
+      top: -1400px;
+    }
+    p{
+      position: relative;
+      width: 660px;
+      height: 90px;
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: -2%;
+      text-align: center;
+      left: -280px;
+      top: -100px;
+      white-space: pre;
+    }
+    .Read_more{
+      position: relative;
+      top: -110px;
+      left: -20px;
+    }
+    #p3{
+      position: relative;
+      top: 126px !important;
+      left: 133px;
+      z-index: 3;
+      width: 15px;
+    }
+  }
+}
+@media (max-width: 320px) {
+  .Apps{
+    /* Apps */
+    position: absolute;
+    width: 312px;
+    height: 927.76px;
+    left: 0;
+    top: 9270px;
+
+    #p2{
+      position: relative;
+      width: 286.5px;
+      top: -1450px;
+    }
+    h1{
+      /* Work with Your Favorite Apps Using whitepace */
+      position: relative;
+      width: 288px;
+      height: 132px;
+      left: -60px;
+      top: -300px;
+      /* Header/H4 */
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 44px;
+      letter-spacing: -2%;
+      text-align: center;
+    }
+    p{
+      /* Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success. */
+      position: relative;
+      width: 293px;
+      height: 150px;
+      /* Автолейаут */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 24;
+      padding: 0px;
+
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 24px 0px;
+
+      /* Paragraph/P2/Regular */
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: -2%;
+      text-align: center;
+      left: -65px;
+      top: -310px;
+      white-space: normal;
+    }
+    .Read_more{
+      top: -210px;
+    }
+    #p3{
+      top: 90px !important;
+    }
+    #p1{
+      left: 290px !important;
+      top: 80px !important;
+      transform: rotate(32deg);
+    }
+  }
+}
