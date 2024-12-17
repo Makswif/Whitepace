@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d5e69a7-694d-4289-8023-641b24dc724c" name="Changes" comment="main4">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_12_2024_19_30_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_12_2024_19_30_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_12_2024_19_30__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Element1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/Apps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/Avater.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/Avater1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/Avater2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/Element1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/Element2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/Quote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/Quote1.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_main2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_main2.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_media2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_media2.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main4" />
+        <entry key="$PROJECT_DIR$" value="main6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,29 +61,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.javascript.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main5&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/IT/Moi pracy/praca 6&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "Node.js.javascript.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main7",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/IT/Moi pracy/praca 6",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;CSS&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "CSS"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="skks" />
@@ -122,7 +132,9 @@
       <workItem from="1729255916658" duration="3170000" />
       <workItem from="1734087818550" duration="2920000" />
       <workItem from="1734102023187" duration="238000" />
-      <workItem from="1734110563889" duration="6450000" />
+      <workItem from="1734110563889" duration="6651000" />
+      <workItem from="1734169412176" duration="1121000" />
+      <workItem from="1734452514622" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="main4">
       <option name="closed" value="true" />
@@ -140,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734090734798</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="main4">
+      <option name="closed" value="true" />
+      <created>1734117250356</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734117250356</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
