@@ -4961,5 +4961,419 @@ button {
     transform: rotate(32deg);
   }
 }
+.Testimonial {
+  /* Testimonial */
+  position: absolute;
+  width: 1919px;
+  height: 994.46px;
+  left: 0;
+  top: 10279.02px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60;
+  padding: 140px 220px 140px 220px;
+}
+
+.What_Our_Clients_Says {
+  /* What Our Clients Says */
+  position: static;
+  width: 1479px;
+  height: 84px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60;
+  padding: 140px 220px 140px 220px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 60px 0px;
+  color: rgb(33, 37, 41);
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.What_Our_Clients_Says img {
+  position: absolute;
+  width: 476.49px;
+  height: 157.67px;
+  left: 1544px;
+  top: 280.05px;
+  z-index: -1;
+}
+
+.Content {
+  /* Content */
+  position: static;
+  width: 1479px;
+  height: 498.46px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 60px 0px;
+}
+
+.Client1 {
+  /* Client */
+  position: static;
+  width: 471.67px;
+  height: 498.46px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 60;
+  padding: 60px 40px 60px 40px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 32px;
+  border-radius: 10px;
+  box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(255, 255, 255);
+}
+.Client1 .Comment p {
+  /* Whitepate is designed as a collaboration tool for businesses that is a full project management solution. */
+  position: static;
+  width: 421.67px;
+  height: 90px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32;
+  padding: 0px 0px 40px 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 32px 0px;
+  /* Paragraph/P2/Regular */
+  color: rgb(33, 37, 41);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -2%;
+  text-align: left;
+}
+.Client1 .line {
+  position: relative;
+  width: 391.67px;
+  height: 223.46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32;
+  padding: 0px 0px 40px 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: -70px 0px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(33, 37, 41);
+  top: -160px;
+}
+.Client1 .Name_box h1 {
+  position: relative;
+  width: 246px;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15;
+  padding: 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 15px 0px;
+  color: rgb(33, 37, 41);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  left: 150px;
+  top: -120px;
+}
+.Client1 .Name_box p {
+  position: relative;
+  width: 246px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15;
+  padding: 0px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 15px 0px;
+  color: rgb(33, 37, 41);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -2%;
+  text-align: left;
+  left: 150px;
+  top: -120px;
+}
+
+.Client2, .Client3 {
+  /* Client */
+  position: static;
+  width: 471.67px;
+  height: 498.46px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 60;
+  padding: 60px 40px 60px 40px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 0px 32px;
+  border-radius: 10px;
+  background: rgb(79, 156, 249);
+}
+.Client2 .Comment p, .Client3 .Comment p {
+  /* Whitepate is designed as a collaboration tool for businesses that is a full project management solution. */
+  position: static;
+  width: 421.67px;
+  height: 90px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32;
+  padding: 0px 0px 40px 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 32px 0px;
+  /* Paragraph/P2/Regular */
+  color: rgb(33, 37, 41);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -2%;
+  text-align: left;
+}
+.Client2 .line, .Client3 .line {
+  position: relative;
+  width: 391.67px;
+  height: 223.46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32;
+  padding: 0px 0px 40px 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: -70px 0px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(33, 37, 41);
+  top: -160px;
+}
+.Client2 .Name_box h1, .Client3 .Name_box h1 {
+  position: relative;
+  width: 246px;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15;
+  padding: 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 15px 0px;
+  color: rgb(33, 37, 41);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  left: 150px;
+  top: -120px;
+}
+.Client2 .Name_box p, .Client3 .Name_box p {
+  position: relative;
+  width: 246px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15;
+  padding: 0px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 15px 0px;
+  color: rgb(33, 37, 41);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -2%;
+  text-align: left;
+  left: 150px;
+  top: -120px;
+}
+
+.Clients {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 1440px) {
+  .Testimonial {
+    /* Testimonial */
+    position: absolute;
+    width: 1440px;
+    height: 994.46px;
+    left: 0;
+    top: 9443.38px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60;
+    padding: 140px 32px 140px 32px;
+  }
+  .What_Our_Clients_Says {
+    padding: 140px 0px 140px 220px;
+    position: relative;
+    width: 1429px;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 60px 0px;
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0%;
+    text-align: center;
+    left: -200px;
+  }
+  .What_Our_Clients_Says h1 {
+    position: relative;
+    width: 1376px;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60;
+    padding: 140px 0px 140px 220px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 60px -180px;
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .What_Our_Clients_Says img {
+    position: absolute;
+    width: 246.49px;
+    height: 157.67px;
+    left: 1120px;
+    top: 120.05px;
+    z-index: -1;
+  }
+  .Clients {
+    position: relative;
+    width: 1376px;
+    height: 498.46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 60px 0px;
+    left: -35px;
+  }
+  .Content {
+    width: 1459px;
+  }
+  .Content .Client1, .Content .Client2, .Content .Client3 {
+    width: 357.33px;
+    height: 388.46px;
+  }
+  .Content .Client1 .Name_box, .Content .Client2 .Name_box, .Content .Client3 .Name_box {
+    position: relative;
+    top: -30px;
+  }
+  .Content .Client1 .Comment p, .Content .Client2 .Comment p, .Content .Client3 .Comment p {
+    width: 391.67px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
