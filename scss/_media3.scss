@@ -103,3 +103,453 @@
     }
   }
 }
+@media (max-width: 1152px) {
+  .What_Our_Clients_Says{
+    padding: 140px 0px 140px 220px;
+    position: relative;
+    width: 1429px;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 60px 0px;
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0%;
+    text-align: center;
+    left: -200px;
+    h1{
+      position: relative;
+      width: 1376px;
+      height: 84px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 60;
+      padding: 140px 0px 140px 220px;
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 60px -180px;
+      color: rgb(33, 37, 41);
+      font-family: Inter;
+      font-size: 70px;
+      font-weight: 700;
+      line-height: 84px;
+      letter-spacing: 0%;
+      text-align: center;
+    }
+    img{
+      position: absolute;
+      width: 246.49px;
+      height: 157.67px;
+      left: 1120px;
+      top: 120.05px;
+      z-index: -1;
+    }
+  }
+  .Clients{
+    position: relative;
+    width: 1376px;
+    height: 498.46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 60px 0px;
+    left: -35px;
+  }
+  .Content{
+    width: 1459px;
+    .Client1, .Client2, .Client3{
+      height: 550.46px;
+      .line{
+        top: -130px;
+      }
+      .Name_box{
+        position: relative;
+        top: 20px;
+        p{
+          width: 196px;
+          top: -80px;
+        }
+        h1{
+          width: 216px;
+        }
+      }
+      .Comment{
+        p{
+          width: 301.67px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .Testimonial{
+    position: absolute;
+    width: 768px;
+    height: 994.46px;
+    left: -390px;
+    top: 11873.38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60;
+    padding: 140px 32px 140px 32px;
+    .What_Our_Clients_Says{
+      width: 768px;
+      img{
+        position: absolute;
+        width: 206.49px;
+        height: 157.67px;
+        left: 940px;
+        top: 90.05px;
+        z-index: -1;
+      }
+      h1{
+        width: 768px;
+        left: 300px;
+        /* Header/H3 */
+        color: rgb(33, 37, 41);
+        font-family: Inter;
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: -2%;
+        text-align: center;
+      }
+    }
+    .Content{
+      width: 1191px;
+      overflow: hidden;
+    }
+  }
+  .Clients1{
+    display: flex;
+    width: 768px;
+    left: 90px;
+    position: relative;
+    .Client1, .Client3{
+      border-radius: 10px;
+      background: rgb(79, 156, 249) !important;
+    }
+    .Client1, .Client2, .Client3{
+      /* Client */
+      position: static;
+      width: 341.33px;
+      height: 430px;
+      /* Автолейаут */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 49;
+      padding: 20px;
+
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      flex-grow: 1;
+      margin: 0px 32px;
+
+      border-radius: 10px;
+
+      box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.08);
+      background: rgb(255, 255, 255);
+      .Comment{
+        position: static;
+        width: 305.33px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 35;
+        padding: 0px;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 35px 0px;
+        color: rgb(1, 37, 42);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: -2%;
+        text-align: left
+        }
+      }
+      .Name_star{
+        position: relative;
+        width: 301.33px;
+        height: 56px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 49px 0px;
+        top: 80px;
+        h1{
+          /* Name Surname */
+          position: static;
+          width: 137px;
+          height: 22px;
+          /* Автолейаут */
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          gap: 4;
+          padding: 0px;
+
+
+          /* Inside Auto Layout */
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+          margin: 4px 0px;
+
+          /* Paragraph/P2/Bold */
+          color: rgb(1, 37, 42);
+          font-family: Inter;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 22px;
+          letter-spacing: -2%;
+          text-align: left;
+        }
+        p{
+          position: relative;
+          width: 203px;
+          height: 30px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          gap: 4;
+          padding: 0px;
+          flex: none;
+          order: 1;
+          flex-grow: 0;
+          margin: 4px 0px;
+          color: rgb(1, 37, 42);
+          font-family: Inter;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 30px;
+          letter-spacing: -2%;
+          text-align: left;
+          left: -210px;
+          top: 30px;
+        }
+      }
+    .Btn_Star{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      left: 130px;
+      position: relative;
+    }
+    }
+  .Clients{
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .Clients1{
+    display: none;
+  }
+  .Clients{
+    display: flex;
+  }
+  #g3{
+    display: none;
+  }
+  #g2{
+    position: relative;
+    width: 288px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60;
+    padding: 100px 16px 100px 16px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 60px 0px;
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0%;
+    text-align: center;
+    top: 90px;
+    left: 0px;
+  }
+  .Testimonial{
+    position: absolute;
+    width: 320px;
+    height: 894.02px;
+    left: 0;
+    top: 10479.52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60;
+    padding: 100px 16px 100px 16px;
+    .Content{
+      width: 320px;
+      overflow: hidden;
+      height: 700px;
+      left: 4px;
+      position: relative;
+    }
+  }
+
+  .What_Our_Clients_Says{
+    padding: 140px 0px 140px 220px;
+    position: relative;
+    width: 320px !important;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 60px 0px;
+    color: rgb(33, 37, 41);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0%;
+    text-align: center;
+    left: -220px;
+    h1{
+      position: relative;
+      width: 1376px;
+      height: 84px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 60;
+      padding: 140px 0px 140px 220px;
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 60px -180px;
+      color: rgb(33, 37, 41);
+      font-family: Inter;
+      font-size: 70px;
+      font-weight: 700;
+      line-height: 84px;
+      letter-spacing: 0%;
+      text-align: center;
+    }
+    img{
+      width: 105.49px !important;
+      height: 267.67px !important;
+      left: 310px !important;
+      top: 167.05px !important;
+    }
+  }
+  .Clients{
+    position: relative;
+    width: 320px;
+    height: 498.46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 60px 0px;
+    left: -35px;
+  }
+  .Content{
+    width: 1459px;
+    .Client1, .Client2, .Client3{
+      /* Testimonial */
+      position: absolute;
+      width: 320px;
+      height: 894.02px;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 60;
+      padding: 100px 16px 100px 16px;
+      .line{
+        top: -130px;
+        width: 251.67px;
+        left: 40px;
+      }
+      .Name_box{
+        position: relative;
+        top: 20px;
+        p{
+          width: 246px;
+          top: 10px;
+          left: 0px;
+        }
+        h1{
+          width: 226px;
+          left: 0px;
+          top: 0px;
+        }
+      }
+      .Comment{
+        top: 30px;
+        position: relative;
+        left: 10px;
+        p{
+          width: 271.67px;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}

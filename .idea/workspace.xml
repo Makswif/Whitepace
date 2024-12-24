@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d5e69a7-694d-4289-8023-641b24dc724c" name="Changes" comment="main7">
-      <change afterPath="$PROJECT_DIR$/scss/_main3.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_media3.scss" afterDir="false" />
+    <list default="true" id="4d5e69a7-694d-4289-8023-641b24dc724c" name="Changes" comment="main8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_main3.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_main3.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_media3.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_media3.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main6" />
+        <entry key="$PROJECT_DIR$" value="main7" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,7 +60,7 @@
     &quot;Node.js.javascript.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main7&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main8&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/IT/Moi pracy/praca 6&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -69,7 +68,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -136,6 +135,10 @@
       <workItem from="1734860867521" duration="203000" />
       <workItem from="1734960891673" duration="1126000" />
       <workItem from="1734963478276" duration="2124000" />
+      <workItem from="1734965632636" duration="101000" />
+      <workItem from="1735056739653" duration="44000" />
+      <workItem from="1735056790655" duration="341000" />
+      <workItem from="1735060652824" duration="7254000" />
     </task>
     <task id="LOCAL-00001" summary="main4">
       <option name="closed" value="true" />
@@ -169,14 +172,34 @@
       <option name="project" value="LOCAL" />
       <updated>1734453194319</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="main7">
+      <option name="closed" value="true" />
+      <created>1734965692415</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734965692415</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="main4" />
-    <option name="LAST_COMMIT_MESSAGE" value="main4" />
+    <MESSAGE value="main7" />
+    <option name="LAST_COMMIT_MESSAGE" value="main7" />
   </component>
 </project>
