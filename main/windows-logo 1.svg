@@ -1,0 +1,17 @@
+<svg width="60.000000" height="60.000000" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip9_4798">
+			<rect id="windows-logo 1" rx="0.000000" width="59.000000" height="59.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="windows-logo 1" rx="0.000000" width="59.000000" height="59.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip9_4798)">
+		<path id="Vector" d="M0 32.89L0 50.37L24.95 53.95L24.95 32.89L0 32.89Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M24.95 6.04L0 9.63L0 27.1L24.95 27.1L24.95 6.04Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M59.99 27.1L59.99 0.72L30.74 4.91L30.74 27.1L59.99 27.1Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M30.74 55.08L59.99 59.27L59.99 32.89L30.74 32.89L30.74 55.08Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

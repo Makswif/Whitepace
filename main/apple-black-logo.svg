@@ -1,0 +1,15 @@
+<svg width="60.000000" height="60.000000" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip9_4793">
+			<rect id="apple-black-logo 2" rx="0.000000" width="59.000000" height="59.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="apple-black-logo 2" rx="0.000000" width="59.000000" height="59.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip9_4793)">
+		<path id="Vector" d="M46.44 33.63C44.79 25.32 52.67 20.45 52.67 20.45C52.67 20.45 49.6 16.01 44.44 14.86C39.28 13.72 36.69 15.15 34.12 16.22C31.54 17.3 30.25 17.3 30.25 17.3C26.52 17.3 23.8 13.36 16.71 15.15C11.82 16.38 6.68 22.03 5.75 28.76C4.82 35.49 6.82 44.09 10.69 50.75C14.56 57.42 18.5 59.92 21.3 59.99C24.09 60.06 26.88 57.99 30.25 57.49C33.62 56.99 35.69 58.71 38.99 59.64C42.28 60.56 43.44 59.7 47.23 56.48C51.03 53.25 54.47 44.01 54.47 44.01C54.47 44.01 48.09 41.94 46.44 33.63Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M39.13 9.49C42.78 5.76 41.55 0 41.55 0C41.55 0 36.41 0.9 32.97 4.47C29.53 8.06 30.1 13.71 30.1 13.71C30.1 13.71 35.47 13.21 39.13 9.49Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
