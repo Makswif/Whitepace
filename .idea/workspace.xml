@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d5e69a7-694d-4289-8023-641b24dc724c" name="Changes" comment="main8">
+    <list default="true" id="4d5e69a7-694d-4289-8023-641b24dc724c" name="Changes" comment="main9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_main3.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_main3.scss" afterDir="false" />
@@ -20,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main7" />
+        <entry key="$PROJECT_DIR$" value="main8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,7 +60,7 @@
     &quot;Node.js.javascript.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main8&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main9&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/IT/Moi pracy/praca 6&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -138,7 +138,12 @@
       <workItem from="1734965632636" duration="101000" />
       <workItem from="1735056739653" duration="44000" />
       <workItem from="1735056790655" duration="341000" />
-      <workItem from="1735060652824" duration="7254000" />
+      <workItem from="1735060652824" duration="7521000" />
+      <workItem from="1735126794888" duration="544000" />
+      <workItem from="1735127995662" duration="216000" />
+      <workItem from="1735129252322" duration="857000" />
+      <workItem from="1735136655293" duration="2333000" />
+      <workItem from="1735199691202" duration="2937000" />
     </task>
     <task id="LOCAL-00001" summary="main4">
       <option name="closed" value="true" />
@@ -180,7 +185,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734965692415</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="main9">
+      <option name="closed" value="true" />
+      <created>1735068129303</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735068129303</updated>
+    </task>
+    <task id="LOCAL-00007" summary="main9">
+      <option name="closed" value="true" />
+      <created>1735068229710</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735068229710</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +221,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="main4" />
     <MESSAGE value="main7" />
-    <option name="LAST_COMMIT_MESSAGE" value="main7" />
+    <MESSAGE value="main9" />
+    <option name="LAST_COMMIT_MESSAGE" value="main9" />
   </component>
 </project>

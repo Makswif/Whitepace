@@ -336,3 +336,152 @@
 .Clients1{
   display: none;
 }
+.Free_Trial{
+  position: absolute;
+  width: 1920px;
+  height: 705px;
+  left: 0;
+  top: 11670.48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 200;
+  padding: 140px 220px 32px 220px;
+  background: rgb(4, 56, 115);
+  .Text_block{
+    /* Text-block */
+    position: static;
+    width: 608px;
+    height: 262px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 40px 0px;
+    h1{
+      /* Try Whitepace today */
+      position: static;
+      width: 608px;
+      height: 174px;
+      /* Автолейаут */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 24;
+      padding: 0px;
+
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 24px 0px;
+
+      /* Header/H1 */
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 72px;
+      font-weight: 700;
+      line-height: 87px;
+      letter-spacing: -2%;
+      text-align: center;
+    }
+    p{
+      /* Get started for free. Add your whole team as your needs grow. */
+      position: static;
+      width: 550px;
+      height: 64px;
+      /* Автолейаут */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 24;
+      padding: 0px;
+
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 24px 0px;
+
+      /* Paragraph/P1/Regular */
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: -2%;
+      text-align: center;
+      white-space: pre-line;
+    }
+  }
+  button{
+    position: relative;
+    width: 218px;
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 20px 40px 20px 40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 40px 0px;
+    border-radius: 10px;
+    background: rgb(79, 156, 249);
+    top: -60px;
+  }
+  p{
+    position: relative;
+    width: 367px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40;
+    padding: 0px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 40px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -2%;
+    text-align: center;
+    top: -90px;
+  }
+  .App_icon{
+    position: relative;
+    top: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+.x1{
+  position: relative;
+  top: 75px;
+  z-index: 2;
+  left: 70px;
+}
+

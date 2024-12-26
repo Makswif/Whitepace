@@ -553,3 +553,153 @@
     }
   }
 }
+@media (max-width: 1440px) {
+  .Free_Trial{
+    width: 1064px;
+    top: 10718.48px;
+  }
+}
+@media (max-width: 1152px) {
+  .Free_Trial{
+    top: 10958.48px;
+  }
+}
+@media (max-width: 768px) {
+  .Free_Trial{
+    position: relative;
+    width: 833px;
+    height: 707px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 40px 0px;
+    left: -8px;
+    top: 13218.48px;
+    .Text_block{
+      position: relative;
+      top: 80px;
+      width: 608px;
+      height: 150px;
+      /* Автолейаут */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 24;
+      padding: 0px;
+
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 40px 0px;
+      h1{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 62px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+      p{
+        position: relative;
+        /* Paragraph/P1/Regular */
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -2%;
+        text-align: left;
+        top: -100px;
+        left: 0px;
+      }
+    }
+    button{
+      top: 45px;
+      left: 40px;
+    }
+    .App_icon{
+      left: 50px;
+      top: 350px;
+    }
+    p{
+      top: 20px;
+      left: 25px;
+    }
+    .x1{
+      position: relative;
+      top: 180px;
+      z-index: 2;
+      left: 220px;
+    }
+  }
+}
+@media (max-width: 320px) {
+  .Free_Trial{
+    width: 367px;
+    height: 837px;
+    left: -23px;
+    top: 11738.48px;
+    .App_icon{
+      left: 40px;
+      top: 500px;
+    }
+    p{/* Paragraph/P2/Regular */
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: -2%;
+      text-align: left;
+      top: 120px;
+      left: -20px;
+    }
+    button{
+      top: 125px;
+      left: 30px;
+    }
+    .Text_block{
+      left: 10px;
+      width: 320px;
+      h1{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 278px;
+        left: 30px;
+        position: relative;
+      }
+      p{
+        top: -70px;
+        left: 30px;
+        width: 250px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: -2%;
+        text-align: left;
+      }
+    }
+  }
+  .x1{
+    top: 260px !important;
+    left: 210px !important;
+
+  }
+}
