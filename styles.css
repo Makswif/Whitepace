@@ -6111,5 +6111,237 @@ button {
     left: 210px !important;
   }
 }
+footer {
+  /* Footer */
+  position: absolute;
+  width: 1920px;
+  height: 474px;
+  left: -1px;
+  top: 12545.48px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 200;
+  padding: 140px 220px 32px 220px;
+  background: rgb(4, 56, 115);
+}
+footer .Info {
+  position: relative;
+  width: 1480px;
+  height: 182px;
+  display: grid;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 100px;
+  padding: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 100px 0px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  top: 70px;
+}
+footer .Logo_description {
+  position: relative;
+  width: 205.25px;
+  height: 169px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15;
+  padding: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 100px;
+  top: -10px;
+}
+footer .Logo_description p {
+  /* whitepace was created for the new ways we live and work. We make a better workspace around the world */
+  position: static;
+  width: 240px;
+  height: 120px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 15px 0px;
+  /* Paragraph/P2/Regular */
+  color: rgb(247, 247, 238);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -2%;
+  text-align: left;
+}
+footer .Logo_description h1 {
+  /* whitepace */
+  position: relative;
+  width: 144px;
+  height: 34px;
+  left: 47px;
+  top: 0;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+footer .Logo_description img {
+  position: relative;
+  top: 50px;
+}
+footer p {
+  /* Paragraph/P3/Regular */
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -2%;
+  text-align: left;
+}
+footer .Try_btn h1 {
+  width: 250px;
+}
+footer .Try_btn button {
+  /* Btn-try */
+  position: static;
+  width: 186px;
+  height: 60px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 20px 40px 20px 40px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 23px 0px;
+  border-radius: 8px;
+  background: rgb(79, 156, 249);
+}
+footer .Try_btn img {
+  position: relative;
+  top: -62px;
+  left: 145px;
+}
+footer .line2 {
+  /* Line 2 */
+  position: static;
+  width: 1480px;
+  height: 0;
+  /* Inside Auto Layout */
+  flex: none;
+  order: undefined;
+  flex-grow: 0;
+  margin: 100px 0px;
+  border: 1px solid rgb(46, 78, 115);
+}
+footer .Btm {
+  position: relative;
+  width: 1480px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 100px 0px;
+  top: -100px;
+}
+footer .Btm .f1 {
+  position: relative;
+  left: -125px;
+}
+footer .Btm .f2 {
+  position: relative;
+  left: -250px;
+  width: 15px;
+}
+footer .Btm .f3 {
+  position: relative;
+  left: -250px;
+}
+footer .Btm .f4, footer .Btm .f5, footer .Btm .f6 {
+  position: relative;
+  left: -250px;
+}
+footer .social {
+  display: grid;
+  grid-template-columns: 1px 1px 1px;
+  gap: 32px;
+  left: -15px;
+  position: relative;
+}
+
+@media (max-width: 1440px) {
+  footer {
+    /* Footer */
+    position: absolute;
+    width: 1440px;
+    height: 474px;
+    left: 0;
+    top: 11586.84px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 200;
+    padding: 140px 32px 32px 32px;
+  }
+  footer .line2 {
+    width: 1336px;
+  }
+  footer .Btm .f {
+    left: 75px;
+    position: relative;
+  }
+  footer .Btm .f1 {
+    position: relative;
+    left: -50px;
+  }
+  footer .Btm .f2 {
+    left: -170px;
+  }
+  footer .Btm .f3 {
+    position: relative;
+    left: -230px;
+  }
+  footer .Btm .f4, footer .Btm .f5, footer .Btm .f6 {
+    position: relative;
+    left: -280px;
+  }
+  footer .Btm .f5 {
+    left: -320px;
+  }
+  footer .Btm .f6 {
+    left: -360px;
+  }
+  footer .Btm .social {
+    left: -55px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

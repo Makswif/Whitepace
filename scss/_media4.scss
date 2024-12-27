@@ -1,0 +1,50 @@
+@media (max-width: 1440px) {
+  footer{
+    /* Footer */
+    position: absolute;
+    width: 1440px;
+    height: 474px;
+    left: 0;
+    top: 11586.84px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 200;
+    padding: 140px 32px 32px 32px;
+    .line2{
+      width: 1336px;
+    }
+    .Btm{
+      .f{
+        left: 75px;
+        position: relative;
+      }
+      .f1{
+        position: relative;
+        left: -50px;
+      }
+      .f2{
+        left: -170px;
+      }
+      .f3{
+        position: relative;
+        left: -230px;
+      }
+      .f4, .f5, .f6{
+        position: relative;
+        left: -280px;
+      }
+      .f5{
+        left: -320px;
+      }
+      .f6{
+        left: -360px;
+      }
+      .social{
+        left: -55px;
+      }
+    }
+  }
+}
