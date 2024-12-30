@@ -2602,15 +2602,27 @@ button {
     top: 2410px;
   }
   .Customise-it-to-your-needs h1 {
-    top: -90px;
+    top: 10px;
     left: -140px;
+  }
+  .Customise-it-to-your-needs p {
+    top: 420px;
+  }
+  .Customise-it-to-your-needs button {
+    top: 550px;
+  }
+  .Customise-it-to-your-needs #w1 {
+    top: 338px !important;
+  }
+  .Customise-it-to-your-needs .icon {
+    top: 635px;
   }
   .Customise-it-to-your-needs .vector {
     top: 205px !important;
     left: 300px !important;
   }
   .Customise-it-to-your-needs .Image-container {
-    top: 150px !important;
+    top: 240px !important;
     left: 750px !important;
   }
 }
@@ -5272,10 +5284,6 @@ button {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-#g1, #g2 {
-  display: none;
-}
-
 .Clients1 {
   display: none;
 }
@@ -5419,6 +5427,10 @@ button {
   top: 75px;
   z-index: 2;
   left: 70px;
+}
+
+#g3 {
+  display: none;
 }
 
 @media (max-width: 1440px) {
@@ -5622,6 +5634,12 @@ button {
   }
 }
 @media (max-width: 768px) {
+  #g2 {
+    display: none;
+  }
+  #g3 {
+    display: flex;
+  }
   .Testimonial {
     position: absolute;
     width: 768px;

@@ -1,3 +1,6 @@
+#g3{
+  display: none;
+}
 @media (max-width: 1440px) {
   .Testimonial{
     /* Testimonial */
@@ -203,6 +206,12 @@
   }
 }
 @media (max-width: 768px) {
+  #g2{
+    display: none;
+  }
+  #g3{
+    display: flex;
+  }
   .Testimonial{
     position: absolute;
     width: 768px;

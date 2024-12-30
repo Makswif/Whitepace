@@ -797,15 +797,27 @@ p{
     height: 759px;
     top: 2410px;
     h1{
-      top: -90px;
+      top: 10px;
       left: -140px;
+    }
+    p{
+      top: 420px;
+    }
+    button{
+      top: 550px;
+    }
+    #w1{
+      top: 338px !important;
+    }
+    .icon{
+      top: 635px;
     }
     .vector{
       top: 205px !important;
       left: 300px !important;
     }
     .Image-container{
-      top: 150px !important;;
+      top: 240px !important;
       left: 750px !important;
     }
   }
